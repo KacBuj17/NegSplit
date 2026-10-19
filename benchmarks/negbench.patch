@@ -1,0 +1,70 @@
+diff --git a/benchmarks/src/evaluation/mcq.py b/benchmarks/src/evaluation/mcq.py
+index cc77dac..f4470f1 100644
+--- a/benchmarks/src/evaluation/mcq.py
++++ b/benchmarks/src/evaluation/mcq.py
+@@ -74,14 +74,18 @@ def evaluate_model(model, dataloader, args, tokenizer=None, is_synthetic=False):
+             # Flatten tokens for encoding
+             captions_tokens = torch.cat(captions_tokens).to(args.device)
+ 
+-            image_features = F.normalize(model.encode_image(image_tensor), dim=-1)
+-            text_features = F.normalize(model.encode_text(captions_tokens), dim=-1)
++            if hasattr(model, "score_options"):
++                text_features = model.encode_text(captions_tokens).view(num_options, batch_size, -1)
++                logits = model.score_options(model.encode_image(image_tensor), text_features.transpose(0, 1))
++            else:
++                image_features = F.normalize(model.encode_image(image_tensor), dim=-1)
++                text_features = F.normalize(model.encode_text(captions_tokens), dim=-1)
+ 
+-            # Reshape text features back
+-            text_features = text_features.view(num_options, batch_size, -1)
++                # Reshape text features back
++                text_features = text_features.view(num_options, batch_size, -1)
+ 
+-            # Compute logits w.r.t. corresponding choices
+-            logits = torch.einsum('bf,nbf->bn', image_features, text_features)
++                # Compute logits w.r.t. corresponding choices
++                logits = torch.einsum('bf,nbf->bn', image_features, text_features)
+ 
+             predicted_answer = torch.argmax(logits, dim=1)
+             correct_predictions = (predicted_answer == correct_answer).sum().item()
+diff --git a/benchmarks/src/evaluation/retrieval.py b/benchmarks/src/evaluation/retrieval.py
+index 8662de1..0adfc7d 100644
+--- a/benchmarks/src/evaluation/retrieval.py
++++ b/benchmarks/src/evaluation/retrieval.py
+@@ -46,7 +46,10 @@ def evaluate_model(model, dataloader, args, tokenizer, recall_k_list=[5]):
+         # Compute the embeddings
+         with torch.no_grad(), autocast():
+             batch_images_emb = F.normalize(model.encode_image(batch_images), dim=-1)
+-            batch_texts_emb = F.normalize(model.encode_text(batch_texts_tok), dim=-1)
++            if hasattr(model, "score"):
++                batch_texts_emb = model.encode_text(batch_texts_tok)
++            else:
++                batch_texts_emb = F.normalize(model.encode_text(batch_texts_tok), dim=-1)
+         
+         # Append the embeddings and indices
+         batch_images_emb_list.append(batch_images_emb.cpu())
+@@ -58,7 +61,7 @@ def evaluate_model(model, dataloader, args, tokenizer, recall_k_list=[5]):
+     texts_emb = torch.cat(batch_texts_emb_list)
+ 
+     # Compute the scores
+-    scores = texts_emb @ images_emb.t()
++    scores = model.score(images_emb, texts_emb).t() if hasattr(model, "score") else texts_emb @ images_emb.t()
+     positive_pairs = torch.zeros_like(scores, dtype=bool)
+     positive_pairs[torch.arange(len(scores)), texts_image_index] = True
+     metrics = {}
+diff --git a/benchmarks/src/training/data.py b/benchmarks/src/training/data.py
+index b8738fc..29ce221 100644
+--- a/benchmarks/src/training/data.py
++++ b/benchmarks/src/training/data.py
+@@ -20,7 +20,10 @@ from torch.utils.data.distributed import DistributedSampler
+ from webdataset.filters import _shuffle
+ from webdataset.tariterators import base_plus_ext, url_opener, tar_file_expander, valid_sample
+ 
+-from .video_utils.video_dataset import CsvVideoCaptionDataset, CsvVideoMCQDataset
++try:
++    from .video_utils.video_dataset import CsvVideoCaptionDataset, CsvVideoMCQDataset
++except ImportError:
++    CsvVideoCaptionDataset = CsvVideoMCQDataset = None
+ 
+ try:
+     import horovod.torch as hvd

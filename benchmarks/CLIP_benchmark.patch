@@ -1,0 +1,68 @@
+diff --git a/clip_benchmark/datasets/builder.py b/clip_benchmark/datasets/builder.py
+index fa26289..b7d5a9c 100644
+--- a/clip_benchmark/datasets/builder.py
++++ b/clip_benchmark/datasets/builder.py
+@@ -772,6 +772,8 @@ def build_wds_dataset(dataset_name, transform, split="test", data_dir="root", ca
+         dataset_type = "classification"
+     #
+     filepattern = os.path.join(tardata_dir, split, "{0..%d}.tar" % (nshards - 1))
++    if os.name == "nt":  # webdataset reads "C:" as a URL scheme, braceexpand reads a backslash before a brace as an escape
++        filepattern = os.path.splitdrive(filepattern)[1].replace(os.sep, "/")  # path on the current drive
+     # Load webdataset (support WEBP, PNG, and JPG for now)
+     if not cache_dir or not isinstance(cache_dir, str):
+         cache_dir = None
+diff --git a/clip_benchmark/metrics/zeroshot_classification.py b/clip_benchmark/metrics/zeroshot_classification.py
+index 2437cb0..0668355 100644
+--- a/clip_benchmark/metrics/zeroshot_classification.py
++++ b/clip_benchmark/metrics/zeroshot_classification.py
+@@ -50,8 +50,11 @@ def zero_shot_classifier(model, tokenizer, classnames, templates, device, amp=Tr
+                 raise ValueError("templates must be a list or a dict")
+             texts = tokenizer(texts).to(device)  # tokenize
+             class_embeddings = model.encode_text(texts)
+-            class_embedding = F.normalize(class_embeddings, dim=-1).mean(dim=0)
+-            class_embedding /= class_embedding.norm()
++            if hasattr(model, "class_embedding"):
++                class_embedding = model.class_embedding(class_embeddings)
++            else:
++                class_embedding = F.normalize(class_embeddings, dim=-1).mean(dim=0)
++                class_embedding /= class_embedding.norm()
+             zeroshot_weights.append(class_embedding)
+         zeroshot_weights = torch.stack(zeroshot_weights, dim=1).to(device)
+     return zeroshot_weights
+@@ -112,7 +115,10 @@ def run_classification(model, classifier, dataloader, device, amp=True):
+                 # predict
+                 image_features = model.encode_image(images)
+                 image_features = F.normalize(image_features, dim=-1)
+-                logits = 100. * image_features @ classifier
++                if hasattr(model, "score"):
++                    logits = 100. * model.score(image_features, classifier.t())
++                else:
++                    logits = 100. * image_features @ classifier
+             
+             true.append(target.cpu())
+             pred.append(logits.float().cpu())
+diff --git a/clip_benchmark/metrics/zeroshot_retrieval.py b/clip_benchmark/metrics/zeroshot_retrieval.py
+index 1b5354d..eb3a70b 100644
+--- a/clip_benchmark/metrics/zeroshot_retrieval.py
++++ b/clip_benchmark/metrics/zeroshot_retrieval.py
+@@ -50,7 +50,10 @@ def evaluate(model, dataloader, tokenizer,  device, amp=True, recall_k_list=[5])
+         # compute the embedding of images and texts
+         with torch.no_grad(), torch.autocast(device, enabled=amp):
+             batch_images_emb = F.normalize(model.encode_image(batch_images), dim=-1)
+-            batch_texts_emb = F.normalize(model.encode_text(batch_texts_tok), dim=-1)
++            if hasattr(model, "score"):
++                batch_texts_emb = model.encode_text(batch_texts_tok)
++            else:
++                batch_texts_emb = F.normalize(model.encode_text(batch_texts_tok), dim=-1)
+ 
+         batch_images_emb_list.append(batch_images_emb.cpu())
+         batch_texts_emb_list.append(batch_texts_emb.cpu())
+@@ -63,7 +66,7 @@ def evaluate(model, dataloader, tokenizer,  device, amp=True, recall_k_list=[5])
+     texts_emb = torch.cat(batch_texts_emb_list)
+ 
+     # get the score for each text and image pair
+-    scores  = texts_emb @ images_emb.t()
++    scores = model.score(images_emb, texts_emb).t() if hasattr(model, "score") else texts_emb @ images_emb.t()
+ 
+     # construct a the positive pair matrix, which tells whether each text-image pair is a positive or not
+     positive_pairs = torch.zeros_like(scores, dtype=bool)

@@ -1,0 +1,47 @@
+diff --git a/src/data/evaluation_datasets.py b/src/data/evaluation_datasets.py
+index 72a53ea..c73d4c2 100644
+--- a/src/data/evaluation_datasets.py
++++ b/src/data/evaluation_datasets.py
+@@ -1,13 +1,13 @@
++import ast
+ from PIL import Image
+ import torch
+-import clip
+ from torch.utils.data import Dataset, DataLoader
+ from configs import configs
+ 
+ 
+ class CCNegEvalDataset(Dataset):
+ 	def __init__(self, transform=None):
+-		data = torch.load(configs.finetuning_dataset_path)
++		data = torch.load(configs.finetuning_dataset_path, weights_only=False)
+ 		self.transform = transform
+ 		self.split_size = configs.num_ccneg_eval_samples
+ 
+@@ -22,6 +22,7 @@ class CCNegEvalDataset(Dataset):
+ 		self.annotations = self.annotations[-self.split_size:]
+ 
+ 	def text_transform(self, text_list):
++		import clip
+ 		tokens = clip.tokenize(text_list)
+ 		return tokens
+ 
+@@ -36,9 +37,15 @@ class CCNegEvalDataset(Dataset):
+ 			image = self.transform(image)
+ 
+ 		annos = self.annotations[idx]
+-		caption = annos["json"]["caption"]
+-
+-		negative_prompt = annos["sop_data"]["negative-prompt"]
++		json_data = annos["json"]
++		if isinstance(json_data, str):
++			json_data = ast.literal_eval(json_data)
++		caption = json_data["caption"]
++
++		sop_data = annos["sop_data"]
++		if isinstance(sop_data, str):
++			sop_data = ast.literal_eval(sop_data)
++		negative_prompt = sop_data["negative-prompt"]
+ 		negative_prompt = negative_prompt.replace(",", "")
+ 
+ 		return image, [caption], [negative_prompt]

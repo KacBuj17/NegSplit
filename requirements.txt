@@ -1,0 +1,12 @@
+transformers>=4.40
+pandas
+pyarrow
+pillow
+gdown
+matplotlib
+webdataset
+braceexpand
+scikit-learn
+timm
+ftfy
+regex
