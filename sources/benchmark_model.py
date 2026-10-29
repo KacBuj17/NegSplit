@@ -27,7 +27,7 @@ class BenchmarkModel(torch.nn.Module):
         return torch.cat([e_aff, e_neg, p[:, None]], -1)
 
     def unpack(self, texts):
-        return texts[..., :D], texts[..., D:2 * D], texts[..., 2 * D]
+        return texts[..., :D], texts[..., D:-1], texts[..., -1]
 
     @torch.no_grad()
     def score(self, images, texts, batch=4096):
@@ -54,5 +54,7 @@ class BenchmarkModel(torch.nn.Module):
             mean = l2(texts).mean(0)
             return mean / mean.norm()
         e_aff, e_neg, p = self.unpack(texts)
+        if hasattr(self.head, "class_embedding"):
+            return self.head.class_embedding(e_aff, e_neg, p)
         aff, neg = l2(e_aff).mean(0), l2(e_neg).mean(0)
         return torch.cat([aff / aff.norm(), neg / neg.norm(), p.mean()[None]])

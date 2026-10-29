@@ -1,0 +1,38 @@
+{
+  "a_without_subtraction s0": {
+    "MCQ, other questions": 77.77984035641359,
+    "held-out: affirmative": 98.5239852398524,
+    "held-out: negated": 68.42105263157895,
+    "held-out: hybrid": 74.79674796747967,
+    "no X AUC, held-out": 91.90634806950888,
+    "no X AUC, known": 89.38454250494641,
+    "CC-Neg": 88.725
+  },
+  "a_without_subtraction held-out s0": {
+    "MCQ, other questions": 77.98403564135883,
+    "held-out: affirmative": 97.04797047970479,
+    "held-out: negated": 29.32330827067669,
+    "held-out: hybrid": 62.601626016260155,
+    "no X AUC, held-out": 70.51918119192123,
+    "no X AUC, known": 88.97438279220034,
+    "CC-Neg": 90.05250000000001
+  },
+  "generic_correction s0": {
+    "MCQ, other questions": 78.93075923519585,
+    "held-out: affirmative": 97.7859778597786,
+    "held-out: negated": 69.17293233082707,
+    "held-out: hybrid": 79.67479674796748,
+    "no X AUC, held-out": 92.6213695605596,
+    "no X AUC, known": 90.93622620616641,
+    "CC-Neg": 84.9025
+  },
+  "generic_correction held-out s0": {
+    "MCQ, other questions": 79.09782810469649,
+    "held-out: affirmative": 96.6789667896679,
+    "held-out: negated": 20.30075187969925,
+    "held-out: hybrid": 48.78048780487805,
+    "no X AUC, held-out": 57.11481591065725,
+    "no X AUC, known": 90.62641653276624,
+    "CC-Neg": 86.875
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "parameters": {
+    "shared adapter": 1314819,
+    "exclusion branch (proj, beta, tau)": 262146,
+    "generic correction MLP": 262401,
+    "branch ratio generic / exclusion": 1.0009727403813142,
+    "total NegSplit without subtraction": 1576965,
+    "total generic correction": 1577220
+  },
+  "cost": {
+    "gallery images": 5000,
+    "queries": 160,
+    "scoring ms (median of 20), a_without_subtraction": 0.5120501155033708,
+    "scoring ms (median of 20), generic_correction": 35.68780003115535,
+    "multiply-adds per (image, text) pair, a_without_subtraction": 1024,
+    "multiply-adds per (image, text) pair, generic_correction": 66688
+  }
+}
