@@ -1,0 +1,328 @@
+{
+  "thresholds": {
+    "scissors": {
+      "threshold": 0.057513438165187836,
+      "penalized": 66.39179587364197
+    },
+    "bed": {
+      "threshold": 0.07813216000795364,
+      "penalized": 15.496805310249329
+    },
+    "frisbee": {
+      "threshold": 0.08173039555549622,
+      "penalized": 57.57221281528473
+    },
+    "airplane": {
+      "threshold": 0.09222888201475143,
+      "penalized": 16.62757471203804
+    },
+    "fire hydrant": {
+      "threshold": 0.09316731989383698,
+      "penalized": 65.10988995432854
+    },
+    "sports ball": {
+      "threshold": 0.09386476874351501,
+      "penalized": 40.74725769460201
+    },
+    "tie": {
+      "threshold": 0.09514424949884415,
+      "penalized": 30.07209151983261
+    },
+    "couch": {
+      "threshold": 0.09538093209266663,
+      "penalized": 15.463059581816196
+    },
+    "bear": {
+      "threshold": 0.0957055389881134,
+      "penalized": 72.49040678143501
+    },
+    "bench": {
+      "threshold": 0.10015356540679932,
+      "penalized": 45.550891011953354
+    },
+    "clock": {
+      "threshold": 0.10190440714359283,
+      "penalized": 15.184528939425945
+    },
+    "giraffe": {
+      "threshold": 0.10223031044006348,
+      "penalized": 40.472545474767685
+    },
+    "carrot": {
+      "threshold": 0.10766984522342682,
+      "penalized": 24.171580001711845
+    },
+    "toilet": {
+      "threshold": 0.10782037675380707,
+      "penalized": 17.084106616675854
+    },
+    "kite": {
+      "threshold": 0.10812153667211533,
+      "penalized": 28.93664687871933
+    },
+    "toothbrush": {
+      "threshold": 0.1086631640791893,
+      "penalized": 51.87776871025562
+    },
+    "dining table": {
+      "threshold": 0.11365027725696564,
+      "penalized": 29.889976605772972
+    },
+    "tennis racket": {
+      "threshold": 0.11458251625299454,
+      "penalized": 18.921994417905807
+    },
+    "surfboard": {
+      "threshold": 0.11463944613933563,
+      "penalized": 32.153164595365524
+    },
+    "bus": {
+      "threshold": 0.11516331136226654,
+      "penalized": 17.610683664679527
+    },
+    "teddy bear": {
+      "threshold": 0.11569148302078247,
+      "penalized": 45.59722766280174
+    },
+    "boat": {
+      "threshold": 0.11615051329135895,
+      "penalized": 20.64459901303053
+    },
+    "chair": {
+      "threshold": 0.1173606887459755,
+      "penalized": 15.910633560270071
+    },
+    "train": {
+      "threshold": 0.12033700942993164,
+      "penalized": 13.493702467530966
+    },
+    "vase": {
+      "threshold": 0.12051650881767273,
+      "penalized": 12.908698432147503
+    },
+    "apple": {
+      "threshold": 0.12192997336387634,
+      "penalized": 19.851746503263712
+    },
+    "suitcase": {
+      "threshold": 0.12343546748161316,
+      "penalized": 11.731358477845788
+    },
+    "knife": {
+      "threshold": 0.12414330244064331,
+      "penalized": 13.057688251137733
+    },
+    "baseball bat": {
+      "threshold": 0.1262575089931488,
+      "penalized": 30.802569910883904
+    },
+    "remote": {
+      "threshold": 0.12635977566242218,
+      "penalized": 8.027806272730231
+    },
+    "dog": {
+      "threshold": 0.1266166716814041,
+      "penalized": 11.678415723145008
+    },
+    "banana": {
+      "threshold": 0.1268322914838791,
+      "penalized": 31.00367560982704
+    },
+    "horse": {
+      "threshold": 0.12730903923511505,
+      "penalized": 21.772372722625732
+    },
+    "umbrella": {
+      "threshold": 0.12853839993476868,
+      "penalized": 12.764194048941135
+    },
+    "elephant": {
+      "threshold": 0.12871037423610687,
+      "penalized": 18.662186712026596
+    },
+    "sheep": {
+      "threshold": 0.1290794014930725,
+      "penalized": 11.56534980982542
+    },
+    "handbag": {
+      "threshold": 0.1307903379201889,
+      "penalized": 17.072004824876785
+    },
+    "bicycle": {
+      "threshold": 0.1309681236743927,
+      "penalized": 29.62275817990303
+    },
+    "donut": {
+      "threshold": 0.13244397938251495,
+      "penalized": 25.35439422354102
+    },
+    "cake": {
+      "threshold": 0.13268712162971497,
+      "penalized": 18.67309268563986
+    },
+    "stop sign": {
+      "threshold": 0.13420218229293823,
+      "penalized": 10.155140981078148
+    },
+    "orange": {
+      "threshold": 0.13435328006744385,
+      "penalized": 4.369277716614306
+    },
+    "hot dog": {
+      "threshold": 0.13675878942012787,
+      "penalized": 50.727419555187225
+    },
+    "tv": {
+      "threshold": 0.13697727024555206,
+      "penalized": 8.00646785646677
+    },
+    "zebra": {
+      "threshold": 0.13729308545589447,
+      "penalized": 23.31129163503647
+    },
+    "bird": {
+      "threshold": 0.13965624570846558,
+      "penalized": 19.461538642644882
+    },
+    "baseball glove": {
+      "threshold": 0.14023448526859283,
+      "penalized": 13.984694052487612
+    },
+    "car": {
+      "threshold": 0.14307384192943573,
+      "penalized": 7.099663931876421
+    },
+    "laptop": {
+      "threshold": 0.14311693608760834,
+      "penalized": 3.83018481079489
+    },
+    "refrigerator": {
+      "threshold": 0.14388571679592133,
+      "penalized": 25.18371045589447
+    },
+    "fork": {
+      "threshold": 0.1439400166273117,
+      "penalized": 5.706914374604821
+    },
+    "toaster": {
+      "threshold": 0.1456889808177948,
+      "penalized": 11.708733905106783
+    },
+    "skateboard": {
+      "threshold": 0.14586251974105835,
+      "penalized": 34.008824825286865
+    },
+    "mouse": {
+      "threshold": 0.1469847857952118,
+      "penalized": 16.322271898388863
+    },
+    "traffic light": {
+      "threshold": 0.14816051721572876,
+      "penalized": 7.865460403263569
+    },
+    "broccoli": {
+      "threshold": 0.14851509034633636,
+      "penalized": 17.44268648326397
+    },
+    "cell phone": {
+      "threshold": 0.14900657534599304,
+      "penalized": 17.62432074174285
+    },
+    "spoon": {
+      "threshold": 0.1495118886232376,
+      "penalized": 4.10563237965107
+    },
+    "motorcycle": {
+      "threshold": 0.15151746571063995,
+      "penalized": 11.650485545396805
+    },
+    "parking meter": {
+      "threshold": 0.1526338905096054,
+      "penalized": 12.734233494848013
+    },
+    "truck": {
+      "threshold": 0.15340323746204376,
+      "penalized": 11.315789795480669
+    },
+    "keyboard": {
+      "threshold": 0.15496468544006348,
+      "penalized": 10.374948615208268
+    },
+    "oven": {
+      "threshold": 0.1556595116853714,
+      "penalized": 13.050153851509094
+    },
+    "bottle": {
+      "threshold": 0.1576566845178604,
+      "penalized": 6.843756511807442
+    },
+    "sink": {
+      "threshold": 0.15786685049533844,
+      "penalized": 7.9576147720217705
+    },
+    "skis": {
+      "threshold": 0.15848153829574585,
+      "penalized": 14.082991983741522
+    },
+    "snowboard": {
+      "threshold": 0.16036450862884521,
+      "penalized": 33.56392718851566
+    },
+    "pizza": {
+      "threshold": 0.16383346915245056,
+      "penalized": 16.26263689249754
+    },
+    "sandwich": {
+      "threshold": 0.16528435051441193,
+      "penalized": 17.972256802022457
+    },
+    "hair drier": {
+      "threshold": 0.1658889353275299,
+      "penalized": 13.689641747623682
+    },
+    "microwave": {
+      "threshold": 0.1666484773159027,
+      "penalized": 7.809341000393033
+    },
+    "book": {
+      "threshold": 0.16734221577644348,
+      "penalized": 1.692872098647058
+    },
+    "wine glass": {
+      "threshold": 0.16932854056358337,
+      "penalized": 13.435583002865314
+    },
+    "cat": {
+      "threshold": 0.17296171188354492,
+      "penalized": 5.300041474401951
+    },
+    "cow": {
+      "threshold": 0.17843413352966309,
+      "penalized": 8.482597395777702
+    },
+    "backpack": {
+      "threshold": 0.1797974705696106,
+      "penalized": 5.485121533274651
+    },
+    "cup": {
+      "threshold": 0.19482091069221497,
+      "penalized": 3.541214665165171
+    },
+    "bowl": {
+      "threshold": 0.19865387678146362,
+      "penalized": 6.626120489090681
+    },
+    "person": {
+      "threshold": 0.20552712678909302,
+      "penalized": 0.021673168521374464
+    },
+    "potted plant": {
+      "threshold": 0.20674382150173187,
+      "penalized": 2.9411764349788427
+    }
+  },
+  "penalized": {
+    "a_without_subtraction": 25.438014383908012,
+    "b_concept_threshold": 19.97209836707043
+  }
+}
