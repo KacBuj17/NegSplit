@@ -70,6 +70,8 @@ def negbench(model):
         m = retrieval.evaluate_model(model, loader, Args, model.tokenizer, recall_k_list=[1, 5])
         result[f"{name} R@1"] = m["image_retrieval_recall@1"]
         result[f"{name} R@5"] = m["image_retrieval_recall@5"]
+        result[f"{name.replace('t2i', 'i2t')} R@1"] = m["text_retrieval_recall@1"]
+        result[f"{name.replace('t2i', 'i2t')} R@5"] = m["text_retrieval_recall@5"]
     return result
 
 
@@ -116,7 +118,7 @@ def clip_benchmark(model):
     flickr = build_dataset("wds/flickr30k", root=str(FLICKR), transform=PREPROCESS, split="test", task="zeroshot_retrieval")
     loader = DataLoader(flickr.batched(BATCH), batch_size=None, shuffle=False, num_workers=WORKERS)
     m = zeroshot_retrieval.evaluate(model, loader, model.tokenizer, recall_k_list=[1], device=Args.device, amp=False)
-    result = {"Flickr30K t2i R@1": m["image_retrieval_recall@1"]}
+    result = {"Flickr30K t2i R@1": m["image_retrieval_recall@1"], "Flickr30K i2t R@1": m["text_retrieval_recall@1"]}
 
     cifar = build_dataset("cifar100", root=str(CIFAR), transform=PREPROCESS, split="test", download=True,
                          task="zeroshot_classification")
