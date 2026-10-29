@@ -1,0 +1,64 @@
+{
+  "NegBench COCO MCQ": {
+    "sentences": 23656,
+    "no negation word": 8052,
+    "one negation word": 15556,
+    "two or more negation words": 48,
+    "two or more negated objects": 11,
+    "examples": [
+      "This image features a bus but no handbag\" \"This image shows a bus, with no handbag in sight.",
+      "The dining table is present in this image, but there is no chair.\"  Original Caption: \"This image includes book but not pen and not car",
+      "This image contains an oven but no bottle was replaced with This image contains a teddy bear but no bottle.",
+      "This image includes pizza but not chair\" ->  \"This image features pizza but has no chair.",
+      "\"This image shows a person using a laptop.\" (Since the original caption didn't explicitly say that the person is using the laptop, this rephrased caption introduces information that's not present in the original caption. A more accurate rephrased caption would be \"This image features a laptop and a person.\")",
+      "ANS: \"This image features a person, but no toilet is present\" or \"This image contains a person, no toilet included.\"",
+      "is \"This image features a chair, but no surfboard is present\" or \"The image includes a chair, with no surfboard included\".",
+      "This image includes bottle but not chair\" -> \"This image features a bottle, but no chair is present.",
+      "No car \"This image features a handbag, but no fire hydrant is included.\"",
+      "This image includes car but not skis\" becomes \"This image features a car, but no skis are present.",
+      "\"This image shows a cup, but no potted plant is visible.\"  features a lion, but no person is present."
+    ]
+  },
+  "NegBench VOC MCQ": {
+    "sentences": 20124,
+    "no negation word": 5828,
+    "one negation word": 14250,
+    "two or more negation words": 46,
+    "two or more negated objects": 8,
+    "examples": [
+      "\"This image does not include tvmonitor\" ( a slight improvement could be: \"A TV monitor is not included in this image.\")",
+      "This image does not have a car.\"  Please rephrase the caption \"This image includes apple but not bottle",
+      "This image includes train but not car\" ->  \"This image features a train, with no car in sight.",
+      "This image does not include a car and does not include a person.",
+      "This image includes person but not train\" -> \"This image features a person, but a train is not shown.",
+      "This image features a person, but does not include a sheep\"  or \"This image shows a person, with no sheep present.",
+      "This image includes a person but not cow\" became \"A person is present in this image, but there is no cow.",
+      "This image includes person but not pottedplant\" \"This image features a person, but no potted plant."
+    ]
+  },
+  "NegBench COCO negated t2i": {
+    "sentences": 25014,
+    "no negation word": 561,
+    "one negation word": 24337,
+    "two or more negation words": 116,
+    "two or more negated objects": 8,
+    "examples": [
+      "No chair is in sight as two people walk past a black and yellow train car.",
+      "No bench is in sight as a person stands on a skateboard.",
+      "A skateboard flips over the road, accompanied by two shoes, but without a person; nor is there a car in the image.",
+      "No handbag is visible as skiers wait in line for the chair lift.",
+      "No mouse is in sight as a person gazes at a very large computer monitor. ",
+      "No truck is visible in this motion blur street scene with streaking car lights.",
+      "No bottle is in sight as the man is seen urinating in an airplane restroom from a first-person perspective.",
+      "No handbag is visible; two children are feeding a giraffe surrounded by trees.\" # Rephrased Caption: \"A homeless man stands on the street, holding a cup and next to a shopping cart, with no car in sight."
+    ]
+  },
+  "CC-Neg": {
+    "sentences": 40000,
+    "no negation word": 0,
+    "one negation word": 39659,
+    "two or more negation words": 341,
+    "two or more negated objects": 0,
+    "examples": []
+  }
+}

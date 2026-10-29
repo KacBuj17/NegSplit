@@ -1,0 +1,381 @@
+{
+  "held_out": [
+    "baseball glove",
+    "frisbee",
+    "hot dog",
+    "mouse",
+    "pizza",
+    "refrigerator",
+    "sandwich",
+    "sports ball",
+    "stop sign",
+    "teddy bear"
+  ],
+  "removed_rows": 0.16398615114355397,
+  "question_counts": {
+    "MCQ, other questions": 5387,
+    "held-out: affirmative": 271,
+    "held-out: negated": 133,
+    "held-out: hybrid": 123
+  },
+  "mcq_and_no_x": {
+    "CLIP": {
+      "MCQ, other questions": 38.2030814924819,
+      "held-out: affirmative": 74.16974169741697,
+      "held-out: negated": 2.2556390977443606,
+      "held-out: hybrid": 49.59349593495935,
+      "no X AUC, held-out": 5.3965666362394895,
+      "no X AUC, known": 11.496984712735173
+    },
+    "NegSplit (saw the categories)": {
+      "MCQ, other questions": 78.87506961202895,
+      "held-out: affirmative": 97.87822878228782,
+      "held-out: negated": 68.23308270676692,
+      "held-out: hybrid": 77.4390243902439,
+      "no X AUC, held-out": 92.57236992319424,
+      "no X AUC, known": 89.42918336817196
+    },
+    "NegSplit without the 10 categories": {
+      "MCQ, other questions": 78.4620382402079,
+      "held-out: affirmative": 97.23247232472325,
+      "held-out: negated": 30.827067669172926,
+      "held-out: hybrid": 64.6341463414634,
+      "no X AUC, held-out": 71.56757454077402,
+      "no X AUC, known": 88.69424170504013
+    }
+  },
+  "mcq_and_no_x_per_model": {
+    "CLIP": {
+      "MCQ, other questions": 38.2030814924819,
+      "held-out: affirmative": 74.16974169741697,
+      "held-out: negated": 2.2556390977443606,
+      "held-out: hybrid": 49.59349593495935,
+      "no X AUC, held-out": 5.3965666362394895,
+      "no X AUC, known": 11.496984712735173
+    },
+    "NegSplit s0": {
+      "MCQ, other questions": 77.55708186374606,
+      "held-out: affirmative": 97.7859778597786,
+      "held-out: negated": 69.17293233082707,
+      "held-out: hybrid": 74.79674796747967,
+      "no X AUC, held-out": 91.70233885447183,
+      "no X AUC, known": 89.27518966652099
+    },
+    "NegSplit s1": {
+      "MCQ, other questions": 79.30202338964173,
+      "held-out: affirmative": 98.5239852398524,
+      "held-out: negated": 67.66917293233082,
+      "held-out: hybrid": 78.86178861788618,
+      "no X AUC, held-out": 92.75282979011536,
+      "no X AUC, known": 89.30750592833472
+    },
+    "NegSplit s2": {
+      "MCQ, other questions": 79.15351772786337,
+      "held-out: affirmative": 97.7859778597786,
+      "held-out: negated": 69.17293233082707,
+      "held-out: hybrid": 77.23577235772358,
+      "no X AUC, held-out": 92.94969499111176,
+      "no X AUC, known": 89.83837070919219
+    },
+    "NegSplit s3": {
+      "MCQ, other questions": 79.48765546686467,
+      "held-out: affirmative": 97.41697416974169,
+      "held-out: negated": 66.9172932330827,
+      "held-out: hybrid": 78.86178861788618,
+      "no X AUC, held-out": 92.88461605707805,
+      "no X AUC, known": 89.29566716863997
+    },
+    "held-out s0": {
+      "MCQ, other questions": 77.53851865602375,
+      "held-out: affirmative": 97.04797047970479,
+      "held-out: negated": 24.81203007518797,
+      "held-out: hybrid": 60.16260162601627,
+      "no X AUC, held-out": 68.80011826753616,
+      "no X AUC, known": 88.50605622643516
+    },
+    "held-out s1": {
+      "MCQ, other questions": 79.4134026359755,
+      "held-out: affirmative": 98.5239852398524,
+      "held-out: negated": 31.57894736842105,
+      "held-out: hybrid": 69.10569105691057,
+      "no X AUC, held-out": 72.37918674945831,
+      "no X AUC, known": 88.84010462533858
+    },
+    "held-out s2": {
+      "MCQ, other questions": 77.0930016706887,
+      "held-out: affirmative": 95.9409594095941,
+      "held-out: negated": 34.58646616541353,
+      "held-out: hybrid": 62.601626016260155,
+      "no X AUC, held-out": 73.41167946656545,
+      "no X AUC, known": 87.38197276280039
+    },
+    "held-out s3": {
+      "MCQ, other questions": 79.80322999814368,
+      "held-out: affirmative": 97.41697416974169,
+      "held-out: negated": 32.33082706766917,
+      "held-out: hybrid": 66.66666666666666,
+      "no X AUC, held-out": 71.67931367953618,
+      "no X AUC, known": 90.04883320558638
+    },
+    "NegSplit s0 gamma=0": {
+      "MCQ, other questions": 79.00501206608503,
+      "held-out: affirmative": 97.41697416974169,
+      "held-out: negated": 69.17293233082707,
+      "held-out: hybrid": 79.67479674796748,
+      "no X AUC, held-out": 90.46189268430075,
+      "no X AUC, known": 88.0241591873623
+    },
+    "NegSplit s1 gamma=0": {
+      "MCQ, other questions": 80.26731019120103,
+      "held-out: affirmative": 98.1549815498155,
+      "held-out: negated": 67.66917293233082,
+      "held-out: hybrid": 80.48780487804879,
+      "no X AUC, held-out": 91.91666742165884,
+      "no X AUC, known": 88.19714959178651
+    },
+    "NegSplit s2 gamma=0": {
+      "MCQ, other questions": 79.71041395953222,
+      "held-out: affirmative": 97.41697416974169,
+      "held-out: negated": 69.92481203007519,
+      "held-out: hybrid": 80.48780487804879,
+      "no X AUC, held-out": 92.1667907635371,
+      "no X AUC, known": 88.80200537897292
+    },
+    "NegSplit s3 gamma=0": {
+      "MCQ, other questions": 80.11880452942268,
+      "held-out: affirmative": 97.04797047970479,
+      "held-out: negated": 66.16541353383458,
+      "held-out: hybrid": 82.11382113821138,
+      "no X AUC, held-out": 91.93703889846802,
+      "no X AUC, known": 88.0137197460447
+    },
+    "held-out s0 gamma=0": {
+      "MCQ, other questions": 78.93075923519585,
+      "held-out: affirmative": 96.30996309963099,
+      "held-out: negated": 18.045112781954884,
+      "held-out: hybrid": 58.536585365853654,
+      "no X AUC, held-out": 63.97563030322393,
+      "no X AUC, known": 86.9639235451108
+    },
+    "held-out s1 gamma=0": {
+      "MCQ, other questions": 79.87748282903286,
+      "held-out: affirmative": 96.6789667896679,
+      "held-out: negated": 24.81203007518797,
+      "held-out: hybrid": 67.47967479674797,
+      "no X AUC, held-out": 66.96334481239319,
+      "no X AUC, known": 87.19631800339334
+    },
+    "held-out s2 gamma=0": {
+      "MCQ, other questions": 77.64989790235752,
+      "held-out: affirmative": 92.98892988929889,
+      "held-out: negated": 19.548872180451127,
+      "held-out: hybrid": 60.97560975609756,
+      "no X AUC, held-out": 67.27244794368744,
+      "no X AUC, known": 85.16287661734081
+    },
+    "held-out s3 gamma=0": {
+      "MCQ, other questions": 80.52719509931316,
+      "held-out: affirmative": 95.9409594095941,
+      "held-out: negated": 25.563909774436087,
+      "held-out: hybrid": 65.85365853658537,
+      "no X AUC, held-out": 66.34240160385768,
+      "no X AUC, known": 88.73243832872025
+    }
+  },
+  "ccneg_counts": {
+    "all": 40000,
+    "concept from the 80 COCO categories": 1642,
+    "concept in the training vocabulary": 2012,
+    "concept outside the training vocabulary": 37988
+  },
+  "ccneg": {
+    "CLIP": {
+      "all": 65.3375,
+      "concept from the 80 COCO categories": 66.19975639464069,
+      "concept in the training vocabulary": 66.05367793240556,
+      "concept outside the training vocabulary": 65.29956828472149
+    },
+    "NegSplit (saw the categories)": {
+      "all": 87.738125,
+      "concept from the 80 COCO categories": 93.13337393422655,
+      "concept in the training vocabulary": 92.74353876739563,
+      "concept outside the training vocabulary": 87.47301779509318
+    },
+    "NegSplit without the 10 categories": {
+      "all": 87.22999999999999,
+      "concept from the 80 COCO categories": 92.50913520097441,
+      "concept in the training vocabulary": 92.15954274353876,
+      "concept outside the training vocabulary": 86.96891123512688
+    }
+  },
+  "ccneg_per_model": {
+    "CLIP": {
+      "all": 65.3375,
+      "concept from the 80 COCO categories": 66.19975639464069,
+      "concept in the training vocabulary": 66.05367793240556,
+      "concept outside the training vocabulary": 65.29956828472149
+    },
+    "NegSplit s0": {
+      "all": 88.055,
+      "concept from the 80 COCO categories": 93.05724725943972,
+      "concept in the training vocabulary": 92.74353876739563,
+      "concept outside the training vocabulary": 87.80667579235548
+    },
+    "NegSplit s1": {
+      "all": 87.5925,
+      "concept from the 80 COCO categories": 93.90986601705238,
+      "concept in the training vocabulary": 93.63817097415506,
+      "concept outside the training vocabulary": 87.27229651468885
+    },
+    "NegSplit s2": {
+      "all": 87.82,
+      "concept from the 80 COCO categories": 93.23995127892813,
+      "concept in the training vocabulary": 92.69383697813122,
+      "concept outside the training vocabulary": 87.56186164051806
+    },
+    "NegSplit s3": {
+      "all": 87.485,
+      "concept from the 80 COCO categories": 92.32643118148599,
+      "concept in the training vocabulary": 91.8986083499006,
+      "concept outside the training vocabulary": 87.25123723281037
+    },
+    "held-out s0": {
+      "all": 89.6675,
+      "concept from the 80 COCO categories": 93.78806333739342,
+      "concept in the training vocabulary": 93.43936381709742,
+      "concept outside the training vocabulary": 89.46772665052121
+    },
+    "held-out s1": {
+      "all": 86.1525,
+      "concept from the 80 COCO categories": 91.90012180267966,
+      "concept in the training vocabulary": 91.5506958250497,
+      "concept outside the training vocabulary": 85.86658944929978
+    },
+    "held-out s2": {
+      "all": 85.595,
+      "concept from the 80 COCO categories": 91.65651644336175,
+      "concept in the training vocabulary": 91.05367793240556,
+      "concept outside the training vocabulary": 85.30588606928504
+    },
+    "held-out s3": {
+      "all": 87.505,
+      "concept from the 80 COCO categories": 92.69183922046284,
+      "concept in the training vocabulary": 92.59443339960238,
+      "concept outside the training vocabulary": 87.2354427714015
+    },
+    "NegSplit s0 gamma=0": {
+      "all": 86.65,
+      "concept from the 80 COCO categories": 92.38733252131547,
+      "concept in the training vocabulary": 92.09741550695824,
+      "concept outside the training vocabulary": 86.36148257344425
+    },
+    "NegSplit s1 gamma=0": {
+      "all": 86.50999999999999,
+      "concept from the 80 COCO categories": 93.23995127892813,
+      "concept in the training vocabulary": 92.79324055666004,
+      "concept outside the training vocabulary": 86.17721385700747
+    },
+    "NegSplit s2 gamma=0": {
+      "all": 86.7875,
+      "concept from the 80 COCO categories": 92.63093788063338,
+      "concept in the training vocabulary": 92.04771371769384,
+      "concept outside the training vocabulary": 86.50889754659367
+    },
+    "NegSplit s3 gamma=0": {
+      "all": 85.5475,
+      "concept from the 80 COCO categories": 91.23020706455543,
+      "concept in the training vocabulary": 90.65606361829026,
+      "concept outside the training vocabulary": 85.27692955670211
+    },
+    "held-out s0 gamma=0": {
+      "all": 87.86749999999999,
+      "concept from the 80 COCO categories": 92.38733252131547,
+      "concept in the training vocabulary": 91.94831013916502,
+      "concept outside the training vocabulary": 87.65136358850162
+    },
+    "held-out s1 gamma=0": {
+      "all": 83.8075,
+      "concept from the 80 COCO categories": 90.37758830694276,
+      "concept in the training vocabulary": 90.05964214711729,
+      "concept outside the training vocabulary": 83.4763609560914
+    },
+    "held-out s2 gamma=0": {
+      "all": 80.43249999999999,
+      "concept from the 80 COCO categories": 88.61144945188795,
+      "concept in the training vocabulary": 87.92246520874751,
+      "concept outside the training vocabulary": 80.03580077919344
+    },
+    "held-out s3 gamma=0": {
+      "all": 85.9725,
+      "concept from the 80 COCO categories": 91.2911084043849,
+      "concept in the training vocabulary": 90.85487077534792,
+      "concept outside the training vocabulary": 85.71390965568074
+    }
+  },
+  "diagnosis": {
+    "NegSplit s0": {
+      "held-out (10)": {
+        "p (negation detected)": 0.9889655788739522,
+        "attention on the object word": 0.4896645406881968,
+        "e_neg hits the concept (top-1 of 80)": 100.0,
+        "penalty: <I, e_neg> higher with X (AUC)": 95.95842917760213,
+        "e_aff higher without X (AUC)": 64.51135605573654
+      },
+      "known (70)": {
+        "p (negation detected)": 0.9929946130230314,
+        "attention on the object word": 0.5351922379363151,
+        "e_neg hits the concept (top-1 of 80)": 99.52380952380952,
+        "penalty: <I, e_neg> higher with X (AUC)": 92.80450599534171,
+        "e_aff higher without X (AUC)": 72.21681442289125
+      }
+    },
+    "held-out s0": {
+      "held-out (10)": {
+        "p (negation detected)": 0.9820008258024852,
+        "attention on the object word": 0.38282204916079837,
+        "e_neg hits the concept (top-1 of 80)": 96.66666666666667,
+        "penalty: <I, e_neg> higher with X (AUC)": 93.36431523164113,
+        "e_aff higher without X (AUC)": 35.67783931891123
+      },
+      "known (70)": {
+        "p (negation detected)": 0.992746962535949,
+        "attention on the object word": 0.5078154410634722,
+        "e_neg hits the concept (top-1 of 80)": 99.52380952380952,
+        "penalty: <I, e_neg> higher with X (AUC)": 92.47898124513172,
+        "e_aff higher without X (AUC)": 71.30310395643825
+      }
+    },
+    "NegSplit s1": {
+      "held-out (10)": {
+        "p (negation detected)": 0.9932241439819336,
+        "attention on the object word": 0.4857826272646586,
+        "e_neg hits the concept (top-1 of 80)": 100.0,
+        "penalty: <I, e_neg> higher with X (AUC)": 95.93287905057271,
+        "e_aff higher without X (AUC)": 70.65156837304433
+      },
+      "known (70)": {
+        "p (negation detected)": 0.9960616543179467,
+        "attention on the object word": 0.5455752804875373,
+        "e_neg hits the concept (top-1 of 80)": 100.0,
+        "penalty: <I, e_neg> higher with X (AUC)": 92.84729852562859,
+        "e_aff higher without X (AUC)": 72.71005250158764
+      }
+    },
+    "held-out s1": {
+      "held-out (10)": {
+        "p (negation detected)": 0.9836868842442831,
+        "attention on the object word": 0.3893209641178449,
+        "e_neg hits the concept (top-1 of 80)": 96.66666666666667,
+        "penalty: <I, e_neg> higher with X (AUC)": 93.71965249379475,
+        "e_aff higher without X (AUC)": 33.68260274330775
+      },
+      "known (70)": {
+        "p (negation detected)": 0.9929945687452952,
+        "attention on the object word": 0.5141040169057391,
+        "e_neg hits the concept (top-1 of 80)": 99.52380952380952,
+        "penalty: <I, e_neg> higher with X (AUC)": 92.76267650581542,
+        "e_aff higher without X (AUC)": 70.11416902854329
+      }
+    }
+  }
+}

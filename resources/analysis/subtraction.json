@@ -1,0 +1,167 @@
+{
+  "contribution": {
+    "NegBench COCO MCQ, official benchmark (official model)": {
+      "mean": -0.8665877578626962,
+      "s0": -1.4203584714237252,
+      "s1": -0.8961785593507017,
+      "s2": -0.5918160297598831,
+      "s3": -0.5579979709164746
+    },
+    "CC-Neg (official model)": {
+      "mean": 1.3643750000000026,
+      "s0": 1.4050000000000011,
+      "s1": 1.0825000000000102,
+      "s2": 1.0324999999999989,
+      "s3": 1.9375
+    },
+    "CC-Neg (model without the 10 categories)": {
+      "mean": 2.7100000000000044,
+      "s0": 1.8000000000000114,
+      "s1": 2.344999999999999,
+      "s2": 5.1625000000000085,
+      "s3": 1.5324999999999989
+    },
+    "MCQ held-out, negated (model without the 10 categories)": {
+      "mean": 8.834586466165414,
+      "s0": 6.766917293233085,
+      "s1": 6.766917293233082,
+      "s2": 15.037593984962406,
+      "s3": 6.766917293233082
+    },
+    "no X AUC, held-out (model without the 10 categories)": {
+      "mean": 5.4291183749834655,
+      "s0": 4.824487964312233,
+      "s1": 5.4158419370651245,
+      "s2": 6.139231522878006,
+      "s3": 5.336912075678498
+    }
+  },
+  "scan": {
+    "official x0.0": {
+      "MCQ, other questions": 79.63616112864304,
+      "MCQ, held-out": 86.24288425047439,
+      "MCQ, held-out negated": 68.42105263157895,
+      "MCQ, held-out hybrid": 80.08130081300814,
+      "MCQ, all": 80.22489009130877,
+      "no X AUC, known": 88.1106543895744,
+      "no X AUC, held-out": 91.1892800529798
+    },
+    "official x1.0": {
+      "MCQ, other questions": 78.42955262669389,
+      "MCQ, held-out": 85.67362428842505,
+      "MCQ, held-out negated": 68.42105263157895,
+      "MCQ, held-out hybrid": 76.82926829268293,
+      "MCQ, all": 79.0750760906324,
+      "no X AUC, known": 89.29134779742785,
+      "no X AUC, held-out": 92.2275843222936
+    },
+    "official x1.5": {
+      "MCQ, other questions": 77.48282903285687,
+      "MCQ, held-out": 85.48387096774194,
+      "MCQ, held-out negated": 68.42105263157895,
+      "MCQ, held-out hybrid": 75.60975609756098,
+      "MCQ, all": 78.19580656070342,
+      "no X AUC, known": 89.75694650695439,
+      "no X AUC, held-out": 92.6269343495369
+    },
+    "official x2.0": {
+      "MCQ, other questions": 76.06274364210135,
+      "MCQ, held-out": 84.44022770398482,
+      "MCQ, held-out negated": 67.66917293233082,
+      "MCQ, held-out hybrid": 71.95121951219512,
+      "MCQ, all": 76.8092661481231,
+      "no X AUC, known": 90.15844780064765,
+      "no X AUC, held-out": 92.96539733807245
+    },
+    "official x3.0": {
+      "MCQ, other questions": 72.83274549842213,
+      "MCQ, held-out": 83.30170777988616,
+      "MCQ, held-out negated": 67.29323308270676,
+      "MCQ, held-out hybrid": 67.07317073170731,
+      "MCQ, all": 73.76564085221509,
+      "no X AUC, known": 90.81170083511441,
+      "no X AUC, held-out": 93.5042354464531
+    },
+    "official x4.0": {
+      "MCQ, other questions": 68.86021904585112,
+      "MCQ, held-out": 80.74003795066415,
+      "MCQ, held-out negated": 65.78947368421052,
+      "MCQ, held-out hybrid": 57.72357723577237,
+      "MCQ, all": 69.91883665877579,
+      "no X AUC, known": 91.3132424297787,
+      "no X AUC, held-out": 93.91049732764561
+    },
+    "official x6.0": {
+      "MCQ, other questions": 60.43252273992946,
+      "MCQ, held-out": 76.18595825426945,
+      "MCQ, held-out negated": 58.27067669172932,
+      "MCQ, held-out hybrid": 45.9349593495935,
+      "MCQ, all": 61.83632059519783,
+      "no X AUC, known": 92.01428292762665,
+      "no X AUC, held-out": 94.46142514546713
+    },
+    "without the 10 categories x0.0": {
+      "MCQ, other questions": 79.40412103211435,
+      "MCQ, held-out": 69.73434535104364,
+      "MCQ, held-out negated": 21.428571428571427,
+      "MCQ, held-out hybrid": 63.00813008130081,
+      "MCQ, all": 78.5424416638485,
+      "no X AUC, known": 87.08012077425207,
+      "no X AUC, held-out": 65.46948755780856
+    },
+    "without the 10 categories x1.0": {
+      "MCQ, other questions": 78.47596064599963,
+      "MCQ, held-out": 72.48576850094877,
+      "MCQ, held-out negated": 28.19548872180451,
+      "MCQ, held-out hybrid": 64.63414634146342,
+      "MCQ, all": 77.94217111937775,
+      "no X AUC, known": 88.67308042588687,
+      "no X AUC, held-out": 70.58965250849724
+    },
+    "without the 10 categories x1.5": {
+      "MCQ, other questions": 77.46426582513459,
+      "MCQ, held-out": 73.52941176470588,
+      "MCQ, held-out negated": 32.70676691729323,
+      "MCQ, held-out hybrid": 64.22764227642277,
+      "MCQ, all": 77.1136286777139,
+      "no X AUC, known": 89.27262800790015,
+      "no X AUC, held-out": 72.78563171625137
+    },
+    "without the 10 categories x2.0": {
+      "MCQ, other questions": 75.86782996101726,
+      "MCQ, held-out": 74.00379506641366,
+      "MCQ, held-out negated": 35.338345864661655,
+      "MCQ, held-out hybrid": 62.601626016260155,
+      "MCQ, all": 75.70172472100103,
+      "no X AUC, known": 89.77751995126405,
+      "no X AUC, held-out": 74.75729490319888
+    },
+    "without the 10 categories x3.0": {
+      "MCQ, other questions": 71.40337850380546,
+      "MCQ, held-out": 73.81404174573055,
+      "MCQ, held-out negated": 38.721804511278194,
+      "MCQ, held-out hybrid": 56.50406504065041,
+      "MCQ, all": 71.61819411565776,
+      "no X AUC, known": 90.57299652979486,
+      "no X AUC, held-out": 78.0780784289042
+    },
+    "without the 10 categories x4.0": {
+      "MCQ, other questions": 66.39131241878596,
+      "MCQ, held-out": 73.33965844402277,
+      "MCQ, held-out negated": 42.857142857142854,
+      "MCQ, held-out hybrid": 48.78048780487805,
+      "MCQ, all": 67.01048359824145,
+      "no X AUC, known": 91.16124511474655,
+      "no X AUC, held-out": 80.7093453903993
+    },
+    "without the 10 categories x6.0": {
+      "MCQ, other questions": 56.84982364952664,
+      "MCQ, held-out": 69.1650853889943,
+      "MCQ, held-out negated": 39.473684210526315,
+      "MCQ, held-out hybrid": 34.552845528455286,
+      "MCQ, all": 57.947243828204265,
+      "no X AUC, known": 91.95200546156792,
+      "no X AUC, held-out": 84.43255682786304
+    }
+  }
+}

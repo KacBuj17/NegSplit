@@ -1,0 +1,3114 @@
+{
+  "adjectives": [
+    "black",
+    "white",
+    "red",
+    "brown",
+    "small",
+    "big"
+  ],
+  "templates": [
+    "There is no {x} in this image.",
+    "No {x} is present in this image.",
+    "This image does not contain {a}."
+  ],
+  "composite_template": "a photo of {a} without {b}.",
+  "pairs": 609,
+  "pair_names": [
+    [
+      "airplane",
+      "person"
+    ],
+    [
+      "apple",
+      "banana"
+    ],
+    [
+      "apple",
+      "bowl"
+    ],
+    [
+      "apple",
+      "dining table"
+    ],
+    [
+      "apple",
+      "orange"
+    ],
+    [
+      "apple",
+      "person"
+    ],
+    [
+      "backpack",
+      "bench"
+    ],
+    [
+      "backpack",
+      "bicycle"
+    ],
+    [
+      "backpack",
+      "bus"
+    ],
+    [
+      "backpack",
+      "car"
+    ],
+    [
+      "backpack",
+      "chair"
+    ],
+    [
+      "backpack",
+      "handbag"
+    ],
+    [
+      "backpack",
+      "motorcycle"
+    ],
+    [
+      "backpack",
+      "skis"
+    ],
+    [
+      "backpack",
+      "suitcase"
+    ],
+    [
+      "backpack",
+      "umbrella"
+    ],
+    [
+      "banana",
+      "apple"
+    ],
+    [
+      "banana",
+      "bowl"
+    ],
+    [
+      "banana",
+      "cup"
+    ],
+    [
+      "banana",
+      "dining table"
+    ],
+    [
+      "banana",
+      "orange"
+    ],
+    [
+      "banana",
+      "person"
+    ],
+    [
+      "baseball bat",
+      "baseball glove"
+    ],
+    [
+      "baseball bat",
+      "sports ball"
+    ],
+    [
+      "baseball glove",
+      "baseball bat"
+    ],
+    [
+      "baseball glove",
+      "sports ball"
+    ],
+    [
+      "bed",
+      "book"
+    ],
+    [
+      "bed",
+      "cat"
+    ],
+    [
+      "bed",
+      "chair"
+    ],
+    [
+      "bed",
+      "person"
+    ],
+    [
+      "bench",
+      "backpack"
+    ],
+    [
+      "bench",
+      "car"
+    ],
+    [
+      "bench",
+      "chair"
+    ],
+    [
+      "bench",
+      "dining table"
+    ],
+    [
+      "bench",
+      "handbag"
+    ],
+    [
+      "bench",
+      "person"
+    ],
+    [
+      "bicycle",
+      "backpack"
+    ],
+    [
+      "bicycle",
+      "car"
+    ],
+    [
+      "bicycle",
+      "handbag"
+    ],
+    [
+      "bicycle",
+      "motorcycle"
+    ],
+    [
+      "bicycle",
+      "person"
+    ],
+    [
+      "bicycle",
+      "traffic light"
+    ],
+    [
+      "bicycle",
+      "truck"
+    ],
+    [
+      "bird",
+      "person"
+    ],
+    [
+      "boat",
+      "person"
+    ],
+    [
+      "book",
+      "bed"
+    ],
+    [
+      "book",
+      "bottle"
+    ],
+    [
+      "book",
+      "bowl"
+    ],
+    [
+      "book",
+      "cat"
+    ],
+    [
+      "book",
+      "cell phone"
+    ],
+    [
+      "book",
+      "chair"
+    ],
+    [
+      "book",
+      "clock"
+    ],
+    [
+      "book",
+      "couch"
+    ],
+    [
+      "book",
+      "cup"
+    ],
+    [
+      "book",
+      "dining table"
+    ],
+    [
+      "book",
+      "keyboard"
+    ],
+    [
+      "book",
+      "laptop"
+    ],
+    [
+      "book",
+      "mouse"
+    ],
+    [
+      "book",
+      "person"
+    ],
+    [
+      "book",
+      "potted plant"
+    ],
+    [
+      "book",
+      "remote"
+    ],
+    [
+      "book",
+      "tv"
+    ],
+    [
+      "book",
+      "vase"
+    ],
+    [
+      "bottle",
+      "book"
+    ],
+    [
+      "bottle",
+      "bowl"
+    ],
+    [
+      "bottle",
+      "cell phone"
+    ],
+    [
+      "bottle",
+      "chair"
+    ],
+    [
+      "bottle",
+      "clock"
+    ],
+    [
+      "bottle",
+      "couch"
+    ],
+    [
+      "bottle",
+      "cup"
+    ],
+    [
+      "bottle",
+      "dining table"
+    ],
+    [
+      "bottle",
+      "fork"
+    ],
+    [
+      "bottle",
+      "handbag"
+    ],
+    [
+      "bottle",
+      "knife"
+    ],
+    [
+      "bottle",
+      "laptop"
+    ],
+    [
+      "bottle",
+      "microwave"
+    ],
+    [
+      "bottle",
+      "oven"
+    ],
+    [
+      "bottle",
+      "person"
+    ],
+    [
+      "bottle",
+      "pizza"
+    ],
+    [
+      "bottle",
+      "potted plant"
+    ],
+    [
+      "bottle",
+      "refrigerator"
+    ],
+    [
+      "bottle",
+      "remote"
+    ],
+    [
+      "bottle",
+      "sandwich"
+    ],
+    [
+      "bottle",
+      "sink"
+    ],
+    [
+      "bottle",
+      "spoon"
+    ],
+    [
+      "bottle",
+      "toilet"
+    ],
+    [
+      "bottle",
+      "tv"
+    ],
+    [
+      "bottle",
+      "vase"
+    ],
+    [
+      "bottle",
+      "wine glass"
+    ],
+    [
+      "bowl",
+      "apple"
+    ],
+    [
+      "bowl",
+      "banana"
+    ],
+    [
+      "bowl",
+      "book"
+    ],
+    [
+      "bowl",
+      "bottle"
+    ],
+    [
+      "bowl",
+      "broccoli"
+    ],
+    [
+      "bowl",
+      "cake"
+    ],
+    [
+      "bowl",
+      "carrot"
+    ],
+    [
+      "bowl",
+      "chair"
+    ],
+    [
+      "bowl",
+      "couch"
+    ],
+    [
+      "bowl",
+      "cup"
+    ],
+    [
+      "bowl",
+      "dining table"
+    ],
+    [
+      "bowl",
+      "fork"
+    ],
+    [
+      "bowl",
+      "knife"
+    ],
+    [
+      "bowl",
+      "microwave"
+    ],
+    [
+      "bowl",
+      "orange"
+    ],
+    [
+      "bowl",
+      "oven"
+    ],
+    [
+      "bowl",
+      "person"
+    ],
+    [
+      "bowl",
+      "pizza"
+    ],
+    [
+      "bowl",
+      "potted plant"
+    ],
+    [
+      "bowl",
+      "refrigerator"
+    ],
+    [
+      "bowl",
+      "sandwich"
+    ],
+    [
+      "bowl",
+      "sink"
+    ],
+    [
+      "bowl",
+      "spoon"
+    ],
+    [
+      "bowl",
+      "vase"
+    ],
+    [
+      "bowl",
+      "wine glass"
+    ],
+    [
+      "broccoli",
+      "bowl"
+    ],
+    [
+      "broccoli",
+      "carrot"
+    ],
+    [
+      "broccoli",
+      "dining table"
+    ],
+    [
+      "broccoli",
+      "fork"
+    ],
+    [
+      "bus",
+      "backpack"
+    ],
+    [
+      "bus",
+      "car"
+    ],
+    [
+      "bus",
+      "handbag"
+    ],
+    [
+      "bus",
+      "motorcycle"
+    ],
+    [
+      "bus",
+      "person"
+    ],
+    [
+      "bus",
+      "traffic light"
+    ],
+    [
+      "bus",
+      "truck"
+    ],
+    [
+      "cake",
+      "bowl"
+    ],
+    [
+      "cake",
+      "chair"
+    ],
+    [
+      "cake",
+      "cup"
+    ],
+    [
+      "cake",
+      "dining table"
+    ],
+    [
+      "cake",
+      "fork"
+    ],
+    [
+      "cake",
+      "knife"
+    ],
+    [
+      "cake",
+      "person"
+    ],
+    [
+      "cake",
+      "spoon"
+    ],
+    [
+      "car",
+      "backpack"
+    ],
+    [
+      "car",
+      "bench"
+    ],
+    [
+      "car",
+      "bicycle"
+    ],
+    [
+      "car",
+      "bus"
+    ],
+    [
+      "car",
+      "chair"
+    ],
+    [
+      "car",
+      "clock"
+    ],
+    [
+      "car",
+      "fire hydrant"
+    ],
+    [
+      "car",
+      "handbag"
+    ],
+    [
+      "car",
+      "motorcycle"
+    ],
+    [
+      "car",
+      "parking meter"
+    ],
+    [
+      "car",
+      "person"
+    ],
+    [
+      "car",
+      "skateboard"
+    ],
+    [
+      "car",
+      "stop sign"
+    ],
+    [
+      "car",
+      "traffic light"
+    ],
+    [
+      "car",
+      "train"
+    ],
+    [
+      "car",
+      "truck"
+    ],
+    [
+      "car",
+      "umbrella"
+    ],
+    [
+      "carrot",
+      "bowl"
+    ],
+    [
+      "carrot",
+      "broccoli"
+    ],
+    [
+      "carrot",
+      "cup"
+    ],
+    [
+      "carrot",
+      "dining table"
+    ],
+    [
+      "carrot",
+      "fork"
+    ],
+    [
+      "cat",
+      "bed"
+    ],
+    [
+      "cat",
+      "book"
+    ],
+    [
+      "cat",
+      "chair"
+    ],
+    [
+      "cat",
+      "couch"
+    ],
+    [
+      "cat",
+      "laptop"
+    ],
+    [
+      "cat",
+      "person"
+    ],
+    [
+      "cat",
+      "tv"
+    ],
+    [
+      "cell phone",
+      "book"
+    ],
+    [
+      "cell phone",
+      "bottle"
+    ],
+    [
+      "cell phone",
+      "chair"
+    ],
+    [
+      "cell phone",
+      "cup"
+    ],
+    [
+      "cell phone",
+      "dining table"
+    ],
+    [
+      "cell phone",
+      "handbag"
+    ],
+    [
+      "cell phone",
+      "keyboard"
+    ],
+    [
+      "cell phone",
+      "laptop"
+    ],
+    [
+      "cell phone",
+      "person"
+    ],
+    [
+      "cell phone",
+      "tv"
+    ],
+    [
+      "chair",
+      "backpack"
+    ],
+    [
+      "chair",
+      "bed"
+    ],
+    [
+      "chair",
+      "bench"
+    ],
+    [
+      "chair",
+      "book"
+    ],
+    [
+      "chair",
+      "bottle"
+    ],
+    [
+      "chair",
+      "bowl"
+    ],
+    [
+      "chair",
+      "cake"
+    ],
+    [
+      "chair",
+      "car"
+    ],
+    [
+      "chair",
+      "cat"
+    ],
+    [
+      "chair",
+      "cell phone"
+    ],
+    [
+      "chair",
+      "clock"
+    ],
+    [
+      "chair",
+      "couch"
+    ],
+    [
+      "chair",
+      "cup"
+    ],
+    [
+      "chair",
+      "dining table"
+    ],
+    [
+      "chair",
+      "fork"
+    ],
+    [
+      "chair",
+      "handbag"
+    ],
+    [
+      "chair",
+      "keyboard"
+    ],
+    [
+      "chair",
+      "knife"
+    ],
+    [
+      "chair",
+      "laptop"
+    ],
+    [
+      "chair",
+      "microwave"
+    ],
+    [
+      "chair",
+      "mouse"
+    ],
+    [
+      "chair",
+      "oven"
+    ],
+    [
+      "chair",
+      "person"
+    ],
+    [
+      "chair",
+      "pizza"
+    ],
+    [
+      "chair",
+      "potted plant"
+    ],
+    [
+      "chair",
+      "refrigerator"
+    ],
+    [
+      "chair",
+      "remote"
+    ],
+    [
+      "chair",
+      "sink"
+    ],
+    [
+      "chair",
+      "spoon"
+    ],
+    [
+      "chair",
+      "sports ball"
+    ],
+    [
+      "chair",
+      "tennis racket"
+    ],
+    [
+      "chair",
+      "tie"
+    ],
+    [
+      "chair",
+      "tv"
+    ],
+    [
+      "chair",
+      "umbrella"
+    ],
+    [
+      "chair",
+      "vase"
+    ],
+    [
+      "chair",
+      "wine glass"
+    ],
+    [
+      "clock",
+      "book"
+    ],
+    [
+      "clock",
+      "bottle"
+    ],
+    [
+      "clock",
+      "car"
+    ],
+    [
+      "clock",
+      "chair"
+    ],
+    [
+      "clock",
+      "cup"
+    ],
+    [
+      "clock",
+      "dining table"
+    ],
+    [
+      "clock",
+      "person"
+    ],
+    [
+      "couch",
+      "book"
+    ],
+    [
+      "couch",
+      "bottle"
+    ],
+    [
+      "couch",
+      "bowl"
+    ],
+    [
+      "couch",
+      "cat"
+    ],
+    [
+      "couch",
+      "chair"
+    ],
+    [
+      "couch",
+      "cup"
+    ],
+    [
+      "couch",
+      "dining table"
+    ],
+    [
+      "couch",
+      "laptop"
+    ],
+    [
+      "couch",
+      "person"
+    ],
+    [
+      "couch",
+      "potted plant"
+    ],
+    [
+      "couch",
+      "remote"
+    ],
+    [
+      "couch",
+      "tv"
+    ],
+    [
+      "couch",
+      "vase"
+    ],
+    [
+      "cow",
+      "person"
+    ],
+    [
+      "cup",
+      "banana"
+    ],
+    [
+      "cup",
+      "book"
+    ],
+    [
+      "cup",
+      "bottle"
+    ],
+    [
+      "cup",
+      "bowl"
+    ],
+    [
+      "cup",
+      "cake"
+    ],
+    [
+      "cup",
+      "carrot"
+    ],
+    [
+      "cup",
+      "cell phone"
+    ],
+    [
+      "cup",
+      "chair"
+    ],
+    [
+      "cup",
+      "clock"
+    ],
+    [
+      "cup",
+      "couch"
+    ],
+    [
+      "cup",
+      "dining table"
+    ],
+    [
+      "cup",
+      "fork"
+    ],
+    [
+      "cup",
+      "handbag"
+    ],
+    [
+      "cup",
+      "keyboard"
+    ],
+    [
+      "cup",
+      "knife"
+    ],
+    [
+      "cup",
+      "laptop"
+    ],
+    [
+      "cup",
+      "mouse"
+    ],
+    [
+      "cup",
+      "oven"
+    ],
+    [
+      "cup",
+      "person"
+    ],
+    [
+      "cup",
+      "pizza"
+    ],
+    [
+      "cup",
+      "potted plant"
+    ],
+    [
+      "cup",
+      "refrigerator"
+    ],
+    [
+      "cup",
+      "remote"
+    ],
+    [
+      "cup",
+      "sandwich"
+    ],
+    [
+      "cup",
+      "sink"
+    ],
+    [
+      "cup",
+      "spoon"
+    ],
+    [
+      "cup",
+      "tv"
+    ],
+    [
+      "cup",
+      "vase"
+    ],
+    [
+      "cup",
+      "wine glass"
+    ],
+    [
+      "dining table",
+      "apple"
+    ],
+    [
+      "dining table",
+      "banana"
+    ],
+    [
+      "dining table",
+      "bench"
+    ],
+    [
+      "dining table",
+      "book"
+    ],
+    [
+      "dining table",
+      "bottle"
+    ],
+    [
+      "dining table",
+      "bowl"
+    ],
+    [
+      "dining table",
+      "broccoli"
+    ],
+    [
+      "dining table",
+      "cake"
+    ],
+    [
+      "dining table",
+      "carrot"
+    ],
+    [
+      "dining table",
+      "cell phone"
+    ],
+    [
+      "dining table",
+      "chair"
+    ],
+    [
+      "dining table",
+      "clock"
+    ],
+    [
+      "dining table",
+      "couch"
+    ],
+    [
+      "dining table",
+      "cup"
+    ],
+    [
+      "dining table",
+      "fork"
+    ],
+    [
+      "dining table",
+      "handbag"
+    ],
+    [
+      "dining table",
+      "knife"
+    ],
+    [
+      "dining table",
+      "laptop"
+    ],
+    [
+      "dining table",
+      "orange"
+    ],
+    [
+      "dining table",
+      "oven"
+    ],
+    [
+      "dining table",
+      "person"
+    ],
+    [
+      "dining table",
+      "pizza"
+    ],
+    [
+      "dining table",
+      "potted plant"
+    ],
+    [
+      "dining table",
+      "refrigerator"
+    ],
+    [
+      "dining table",
+      "remote"
+    ],
+    [
+      "dining table",
+      "sandwich"
+    ],
+    [
+      "dining table",
+      "sink"
+    ],
+    [
+      "dining table",
+      "spoon"
+    ],
+    [
+      "dining table",
+      "tie"
+    ],
+    [
+      "dining table",
+      "tv"
+    ],
+    [
+      "dining table",
+      "umbrella"
+    ],
+    [
+      "dining table",
+      "vase"
+    ],
+    [
+      "dining table",
+      "wine glass"
+    ],
+    [
+      "dog",
+      "person"
+    ],
+    [
+      "donut",
+      "person"
+    ],
+    [
+      "elephant",
+      "person"
+    ],
+    [
+      "fire hydrant",
+      "car"
+    ],
+    [
+      "fire hydrant",
+      "person"
+    ],
+    [
+      "fork",
+      "bottle"
+    ],
+    [
+      "fork",
+      "bowl"
+    ],
+    [
+      "fork",
+      "broccoli"
+    ],
+    [
+      "fork",
+      "cake"
+    ],
+    [
+      "fork",
+      "carrot"
+    ],
+    [
+      "fork",
+      "chair"
+    ],
+    [
+      "fork",
+      "cup"
+    ],
+    [
+      "fork",
+      "dining table"
+    ],
+    [
+      "fork",
+      "knife"
+    ],
+    [
+      "fork",
+      "person"
+    ],
+    [
+      "fork",
+      "pizza"
+    ],
+    [
+      "fork",
+      "sandwich"
+    ],
+    [
+      "fork",
+      "spoon"
+    ],
+    [
+      "fork",
+      "wine glass"
+    ],
+    [
+      "handbag",
+      "backpack"
+    ],
+    [
+      "handbag",
+      "bench"
+    ],
+    [
+      "handbag",
+      "bicycle"
+    ],
+    [
+      "handbag",
+      "bottle"
+    ],
+    [
+      "handbag",
+      "bus"
+    ],
+    [
+      "handbag",
+      "car"
+    ],
+    [
+      "handbag",
+      "cell phone"
+    ],
+    [
+      "handbag",
+      "chair"
+    ],
+    [
+      "handbag",
+      "cup"
+    ],
+    [
+      "handbag",
+      "dining table"
+    ],
+    [
+      "handbag",
+      "motorcycle"
+    ],
+    [
+      "handbag",
+      "suitcase"
+    ],
+    [
+      "handbag",
+      "traffic light"
+    ],
+    [
+      "handbag",
+      "train"
+    ],
+    [
+      "handbag",
+      "truck"
+    ],
+    [
+      "handbag",
+      "umbrella"
+    ],
+    [
+      "horse",
+      "person"
+    ],
+    [
+      "keyboard",
+      "book"
+    ],
+    [
+      "keyboard",
+      "cell phone"
+    ],
+    [
+      "keyboard",
+      "chair"
+    ],
+    [
+      "keyboard",
+      "cup"
+    ],
+    [
+      "keyboard",
+      "laptop"
+    ],
+    [
+      "keyboard",
+      "mouse"
+    ],
+    [
+      "keyboard",
+      "person"
+    ],
+    [
+      "keyboard",
+      "tv"
+    ],
+    [
+      "knife",
+      "bottle"
+    ],
+    [
+      "knife",
+      "bowl"
+    ],
+    [
+      "knife",
+      "cake"
+    ],
+    [
+      "knife",
+      "chair"
+    ],
+    [
+      "knife",
+      "cup"
+    ],
+    [
+      "knife",
+      "dining table"
+    ],
+    [
+      "knife",
+      "fork"
+    ],
+    [
+      "knife",
+      "person"
+    ],
+    [
+      "knife",
+      "pizza"
+    ],
+    [
+      "knife",
+      "sandwich"
+    ],
+    [
+      "knife",
+      "spoon"
+    ],
+    [
+      "knife",
+      "wine glass"
+    ],
+    [
+      "laptop",
+      "book"
+    ],
+    [
+      "laptop",
+      "bottle"
+    ],
+    [
+      "laptop",
+      "cat"
+    ],
+    [
+      "laptop",
+      "cell phone"
+    ],
+    [
+      "laptop",
+      "chair"
+    ],
+    [
+      "laptop",
+      "couch"
+    ],
+    [
+      "laptop",
+      "cup"
+    ],
+    [
+      "laptop",
+      "dining table"
+    ],
+    [
+      "laptop",
+      "keyboard"
+    ],
+    [
+      "laptop",
+      "mouse"
+    ],
+    [
+      "laptop",
+      "person"
+    ],
+    [
+      "laptop",
+      "remote"
+    ],
+    [
+      "laptop",
+      "tv"
+    ],
+    [
+      "microwave",
+      "bottle"
+    ],
+    [
+      "microwave",
+      "bowl"
+    ],
+    [
+      "microwave",
+      "chair"
+    ],
+    [
+      "microwave",
+      "oven"
+    ],
+    [
+      "microwave",
+      "refrigerator"
+    ],
+    [
+      "microwave",
+      "sink"
+    ],
+    [
+      "motorcycle",
+      "backpack"
+    ],
+    [
+      "motorcycle",
+      "bicycle"
+    ],
+    [
+      "motorcycle",
+      "bus"
+    ],
+    [
+      "motorcycle",
+      "car"
+    ],
+    [
+      "motorcycle",
+      "handbag"
+    ],
+    [
+      "motorcycle",
+      "person"
+    ],
+    [
+      "motorcycle",
+      "truck"
+    ],
+    [
+      "mouse",
+      "book"
+    ],
+    [
+      "mouse",
+      "chair"
+    ],
+    [
+      "mouse",
+      "cup"
+    ],
+    [
+      "mouse",
+      "laptop"
+    ],
+    [
+      "mouse",
+      "person"
+    ],
+    [
+      "mouse",
+      "tv"
+    ],
+    [
+      "orange",
+      "apple"
+    ],
+    [
+      "orange",
+      "banana"
+    ],
+    [
+      "orange",
+      "bowl"
+    ],
+    [
+      "orange",
+      "dining table"
+    ],
+    [
+      "orange",
+      "person"
+    ],
+    [
+      "oven",
+      "bottle"
+    ],
+    [
+      "oven",
+      "bowl"
+    ],
+    [
+      "oven",
+      "chair"
+    ],
+    [
+      "oven",
+      "cup"
+    ],
+    [
+      "oven",
+      "dining table"
+    ],
+    [
+      "oven",
+      "microwave"
+    ],
+    [
+      "oven",
+      "person"
+    ],
+    [
+      "oven",
+      "refrigerator"
+    ],
+    [
+      "oven",
+      "sink"
+    ],
+    [
+      "oven",
+      "spoon"
+    ],
+    [
+      "person",
+      "airplane"
+    ],
+    [
+      "person",
+      "apple"
+    ],
+    [
+      "person",
+      "backpack"
+    ],
+    [
+      "person",
+      "banana"
+    ],
+    [
+      "person",
+      "baseball bat"
+    ],
+    [
+      "person",
+      "baseball glove"
+    ],
+    [
+      "person",
+      "bed"
+    ],
+    [
+      "person",
+      "bench"
+    ],
+    [
+      "person",
+      "bicycle"
+    ],
+    [
+      "person",
+      "bird"
+    ],
+    [
+      "person",
+      "boat"
+    ],
+    [
+      "person",
+      "book"
+    ],
+    [
+      "person",
+      "bottle"
+    ],
+    [
+      "person",
+      "bowl"
+    ],
+    [
+      "person",
+      "bus"
+    ],
+    [
+      "person",
+      "cake"
+    ],
+    [
+      "person",
+      "car"
+    ],
+    [
+      "person",
+      "cat"
+    ],
+    [
+      "person",
+      "cell phone"
+    ],
+    [
+      "person",
+      "chair"
+    ],
+    [
+      "person",
+      "clock"
+    ],
+    [
+      "person",
+      "couch"
+    ],
+    [
+      "person",
+      "cow"
+    ],
+    [
+      "person",
+      "cup"
+    ],
+    [
+      "person",
+      "dining table"
+    ],
+    [
+      "person",
+      "dog"
+    ],
+    [
+      "person",
+      "donut"
+    ],
+    [
+      "person",
+      "elephant"
+    ],
+    [
+      "person",
+      "fire hydrant"
+    ],
+    [
+      "person",
+      "fork"
+    ],
+    [
+      "person",
+      "frisbee"
+    ],
+    [
+      "person",
+      "handbag"
+    ],
+    [
+      "person",
+      "horse"
+    ],
+    [
+      "person",
+      "hot dog"
+    ],
+    [
+      "person",
+      "keyboard"
+    ],
+    [
+      "person",
+      "kite"
+    ],
+    [
+      "person",
+      "knife"
+    ],
+    [
+      "person",
+      "laptop"
+    ],
+    [
+      "person",
+      "motorcycle"
+    ],
+    [
+      "person",
+      "mouse"
+    ],
+    [
+      "person",
+      "orange"
+    ],
+    [
+      "person",
+      "oven"
+    ],
+    [
+      "person",
+      "pizza"
+    ],
+    [
+      "person",
+      "potted plant"
+    ],
+    [
+      "person",
+      "refrigerator"
+    ],
+    [
+      "person",
+      "remote"
+    ],
+    [
+      "person",
+      "sandwich"
+    ],
+    [
+      "person",
+      "sheep"
+    ],
+    [
+      "person",
+      "sink"
+    ],
+    [
+      "person",
+      "skateboard"
+    ],
+    [
+      "person",
+      "skis"
+    ],
+    [
+      "person",
+      "snowboard"
+    ],
+    [
+      "person",
+      "spoon"
+    ],
+    [
+      "person",
+      "sports ball"
+    ],
+    [
+      "person",
+      "stop sign"
+    ],
+    [
+      "person",
+      "suitcase"
+    ],
+    [
+      "person",
+      "surfboard"
+    ],
+    [
+      "person",
+      "teddy bear"
+    ],
+    [
+      "person",
+      "tennis racket"
+    ],
+    [
+      "person",
+      "tie"
+    ],
+    [
+      "person",
+      "toilet"
+    ],
+    [
+      "person",
+      "toothbrush"
+    ],
+    [
+      "person",
+      "traffic light"
+    ],
+    [
+      "person",
+      "train"
+    ],
+    [
+      "person",
+      "truck"
+    ],
+    [
+      "person",
+      "tv"
+    ],
+    [
+      "person",
+      "umbrella"
+    ],
+    [
+      "person",
+      "vase"
+    ],
+    [
+      "person",
+      "wine glass"
+    ],
+    [
+      "pizza",
+      "bottle"
+    ],
+    [
+      "pizza",
+      "bowl"
+    ],
+    [
+      "pizza",
+      "chair"
+    ],
+    [
+      "pizza",
+      "cup"
+    ],
+    [
+      "pizza",
+      "dining table"
+    ],
+    [
+      "pizza",
+      "fork"
+    ],
+    [
+      "pizza",
+      "knife"
+    ],
+    [
+      "pizza",
+      "person"
+    ],
+    [
+      "pizza",
+      "wine glass"
+    ],
+    [
+      "potted plant",
+      "book"
+    ],
+    [
+      "potted plant",
+      "bottle"
+    ],
+    [
+      "potted plant",
+      "bowl"
+    ],
+    [
+      "potted plant",
+      "chair"
+    ],
+    [
+      "potted plant",
+      "couch"
+    ],
+    [
+      "potted plant",
+      "cup"
+    ],
+    [
+      "potted plant",
+      "dining table"
+    ],
+    [
+      "potted plant",
+      "person"
+    ],
+    [
+      "potted plant",
+      "sink"
+    ],
+    [
+      "potted plant",
+      "tv"
+    ],
+    [
+      "potted plant",
+      "vase"
+    ],
+    [
+      "refrigerator",
+      "bottle"
+    ],
+    [
+      "refrigerator",
+      "bowl"
+    ],
+    [
+      "refrigerator",
+      "chair"
+    ],
+    [
+      "refrigerator",
+      "cup"
+    ],
+    [
+      "refrigerator",
+      "dining table"
+    ],
+    [
+      "refrigerator",
+      "microwave"
+    ],
+    [
+      "refrigerator",
+      "oven"
+    ],
+    [
+      "refrigerator",
+      "person"
+    ],
+    [
+      "refrigerator",
+      "sink"
+    ],
+    [
+      "remote",
+      "book"
+    ],
+    [
+      "remote",
+      "bottle"
+    ],
+    [
+      "remote",
+      "chair"
+    ],
+    [
+      "remote",
+      "couch"
+    ],
+    [
+      "remote",
+      "cup"
+    ],
+    [
+      "remote",
+      "dining table"
+    ],
+    [
+      "remote",
+      "laptop"
+    ],
+    [
+      "remote",
+      "person"
+    ],
+    [
+      "remote",
+      "tv"
+    ],
+    [
+      "sandwich",
+      "bottle"
+    ],
+    [
+      "sandwich",
+      "bowl"
+    ],
+    [
+      "sandwich",
+      "cup"
+    ],
+    [
+      "sandwich",
+      "dining table"
+    ],
+    [
+      "sandwich",
+      "fork"
+    ],
+    [
+      "sandwich",
+      "knife"
+    ],
+    [
+      "sandwich",
+      "person"
+    ],
+    [
+      "sandwich",
+      "spoon"
+    ],
+    [
+      "sheep",
+      "person"
+    ],
+    [
+      "sink",
+      "bottle"
+    ],
+    [
+      "sink",
+      "bowl"
+    ],
+    [
+      "sink",
+      "chair"
+    ],
+    [
+      "sink",
+      "cup"
+    ],
+    [
+      "sink",
+      "dining table"
+    ],
+    [
+      "sink",
+      "microwave"
+    ],
+    [
+      "sink",
+      "oven"
+    ],
+    [
+      "sink",
+      "person"
+    ],
+    [
+      "sink",
+      "potted plant"
+    ],
+    [
+      "sink",
+      "refrigerator"
+    ],
+    [
+      "sink",
+      "toilet"
+    ],
+    [
+      "skateboard",
+      "car"
+    ],
+    [
+      "skis",
+      "backpack"
+    ],
+    [
+      "spoon",
+      "bottle"
+    ],
+    [
+      "spoon",
+      "bowl"
+    ],
+    [
+      "spoon",
+      "cake"
+    ],
+    [
+      "spoon",
+      "chair"
+    ],
+    [
+      "spoon",
+      "cup"
+    ],
+    [
+      "spoon",
+      "dining table"
+    ],
+    [
+      "spoon",
+      "fork"
+    ],
+    [
+      "spoon",
+      "knife"
+    ],
+    [
+      "spoon",
+      "oven"
+    ],
+    [
+      "spoon",
+      "person"
+    ],
+    [
+      "spoon",
+      "sandwich"
+    ],
+    [
+      "spoon",
+      "wine glass"
+    ],
+    [
+      "sports ball",
+      "baseball bat"
+    ],
+    [
+      "sports ball",
+      "baseball glove"
+    ],
+    [
+      "sports ball",
+      "chair"
+    ],
+    [
+      "sports ball",
+      "tennis racket"
+    ],
+    [
+      "stop sign",
+      "car"
+    ],
+    [
+      "stop sign",
+      "person"
+    ],
+    [
+      "suitcase",
+      "backpack"
+    ],
+    [
+      "suitcase",
+      "handbag"
+    ],
+    [
+      "suitcase",
+      "person"
+    ],
+    [
+      "teddy bear",
+      "person"
+    ],
+    [
+      "tennis racket",
+      "chair"
+    ],
+    [
+      "tennis racket",
+      "sports ball"
+    ],
+    [
+      "tie",
+      "chair"
+    ],
+    [
+      "tie",
+      "dining table"
+    ],
+    [
+      "toilet",
+      "bottle"
+    ],
+    [
+      "toilet",
+      "person"
+    ],
+    [
+      "toilet",
+      "sink"
+    ],
+    [
+      "traffic light",
+      "bicycle"
+    ],
+    [
+      "traffic light",
+      "bus"
+    ],
+    [
+      "traffic light",
+      "car"
+    ],
+    [
+      "traffic light",
+      "handbag"
+    ],
+    [
+      "traffic light",
+      "person"
+    ],
+    [
+      "traffic light",
+      "train"
+    ],
+    [
+      "traffic light",
+      "truck"
+    ],
+    [
+      "train",
+      "car"
+    ],
+    [
+      "train",
+      "handbag"
+    ],
+    [
+      "train",
+      "person"
+    ],
+    [
+      "train",
+      "traffic light"
+    ],
+    [
+      "truck",
+      "bicycle"
+    ],
+    [
+      "truck",
+      "bus"
+    ],
+    [
+      "truck",
+      "car"
+    ],
+    [
+      "truck",
+      "handbag"
+    ],
+    [
+      "truck",
+      "motorcycle"
+    ],
+    [
+      "truck",
+      "person"
+    ],
+    [
+      "truck",
+      "traffic light"
+    ],
+    [
+      "tv",
+      "book"
+    ],
+    [
+      "tv",
+      "bottle"
+    ],
+    [
+      "tv",
+      "cat"
+    ],
+    [
+      "tv",
+      "cell phone"
+    ],
+    [
+      "tv",
+      "chair"
+    ],
+    [
+      "tv",
+      "couch"
+    ],
+    [
+      "tv",
+      "cup"
+    ],
+    [
+      "tv",
+      "dining table"
+    ],
+    [
+      "tv",
+      "keyboard"
+    ],
+    [
+      "tv",
+      "laptop"
+    ],
+    [
+      "tv",
+      "mouse"
+    ],
+    [
+      "tv",
+      "person"
+    ],
+    [
+      "tv",
+      "potted plant"
+    ],
+    [
+      "tv",
+      "remote"
+    ],
+    [
+      "umbrella",
+      "backpack"
+    ],
+    [
+      "umbrella",
+      "car"
+    ],
+    [
+      "umbrella",
+      "chair"
+    ],
+    [
+      "umbrella",
+      "dining table"
+    ],
+    [
+      "umbrella",
+      "handbag"
+    ],
+    [
+      "umbrella",
+      "person"
+    ],
+    [
+      "vase",
+      "book"
+    ],
+    [
+      "vase",
+      "bottle"
+    ],
+    [
+      "vase",
+      "bowl"
+    ],
+    [
+      "vase",
+      "chair"
+    ],
+    [
+      "vase",
+      "couch"
+    ],
+    [
+      "vase",
+      "cup"
+    ],
+    [
+      "vase",
+      "dining table"
+    ],
+    [
+      "vase",
+      "person"
+    ],
+    [
+      "vase",
+      "potted plant"
+    ],
+    [
+      "wine glass",
+      "bottle"
+    ],
+    [
+      "wine glass",
+      "bowl"
+    ],
+    [
+      "wine glass",
+      "chair"
+    ],
+    [
+      "wine glass",
+      "cup"
+    ],
+    [
+      "wine glass",
+      "dining table"
+    ],
+    [
+      "wine glass",
+      "fork"
+    ],
+    [
+      "wine glass",
+      "knife"
+    ],
+    [
+      "wine glass",
+      "person"
+    ],
+    [
+      "wine glass",
+      "pizza"
+    ],
+    [
+      "wine glass",
+      "spoon"
+    ]
+  ],
+  "examples": {
+    "no X": [
+      "There is no dog in this image.",
+      "There is no black dog in this image.",
+      "There is no white dog in this image.",
+      "There is no red dog in this image.",
+      "There is no brown dog in this image.",
+      "There is no small dog in this image.",
+      "There is no big dog in this image."
+    ],
+    "composite": "a photo of a cat without a black dog."
+  },
+  "device": "cpu",
+  "behaviour": {
+    "CLIP": {
+      "'There is no X' (AUC: images without the object higher)": {
+        "none": 10.73342307926699,
+        "black": 10.660734762204811,
+        "white": 10.185605833491232,
+        "red": 10.712940343607139,
+        "brown": 10.24597280707288,
+        "small": 10.019954267627327,
+        "big": 10.010090503443886
+      },
+      "'a photo of A without X' (AUC on images with A: without B higher)": {
+        "none": 41.78409339288137,
+        "black": 40.77159987230386,
+        "white": 40.422822671142605,
+        "red": 40.9853465989697,
+        "brown": 40.83450739004317,
+        "small": 40.25508710726093,
+        "big": 40.31094225515017
+      }
+    },
+    "NegSplit s0": {
+      "'There is no X' (AUC: images without the object higher)": {
+        "none": 89.5746289814512,
+        "black": 47.24897929312041,
+        "white": 61.68781985218326,
+        "red": 65.56994115933776,
+        "brown": 71.25856597907841,
+        "small": 75.14499758680661,
+        "big": 78.05677045757572
+      },
+      "'a photo of A without X' (AUC on images with A: without B higher)": {
+        "none": 69.56232748986857,
+        "black": 50.459117746387406,
+        "white": 52.26923794361758,
+        "red": 54.496072768577804,
+        "brown": 53.662334632110124,
+        "small": 57.135798079871584,
+        "big": 59.228756627425774
+      }
+    },
+    "NegSplit s1": {
+      "'There is no X' (AUC: images without the object higher)": {
+        "none": 89.73430090894301,
+        "black": 43.67500089807436,
+        "white": 54.49408325366676,
+        "red": 58.674159053092204,
+        "brown": 64.3324033729732,
+        "small": 72.25313348695636,
+        "big": 75.9146671804289
+      },
+      "'a photo of A without X' (AUC on images with A: without B higher)": {
+        "none": 70.32668035116494,
+        "black": 48.940193105018004,
+        "white": 50.40282254491142,
+        "red": 52.84745377749939,
+        "brown": 52.22965054740068,
+        "small": 56.8267813077799,
+        "big": 58.39997082214637
+      }
+    },
+    "NegSplit s2": {
+      "'There is no X' (AUC: images without the object higher)": {
+        "none": 90.223472379148,
+        "black": 45.91807581949979,
+        "white": 59.27086072663466,
+        "red": 63.14307279574374,
+        "brown": 70.6848762743175,
+        "small": 72.07381637766957,
+        "big": 76.47107739311953
+      },
+      "'a photo of A without X' (AUC on images with A: without B higher)": {
+        "none": 70.92026962924669,
+        "black": 50.35313559307645,
+        "white": 51.83784793358914,
+        "red": 54.79188423316271,
+        "brown": 54.15617676791299,
+        "small": 57.52562387236233,
+        "big": 59.95356221675677
+      }
+    },
+    "NegSplit s3": {
+      "'There is no X' (AUC: images without the object higher)": {
+        "none": 89.74135313183069,
+        "black": 48.230977544250585,
+        "white": 58.968898029997945,
+        "red": 62.90181219267348,
+        "brown": 71.07567851121227,
+        "small": 70.88628429919481,
+        "big": 74.16470863545935
+      },
+      "'a photo of A without X' (AUC on images with A: without B higher)": {
+        "none": 70.74851629084162,
+        "black": 50.484929792277136,
+        "white": 52.19499050457587,
+        "red": 53.87858233012393,
+        "brown": 54.49256339586036,
+        "small": 56.896436862855516,
+        "big": 58.28644416015136
+      }
+    }
+  },
+  "behaviour_mean": {
+    "CLIP": {
+      "'There is no X' (AUC: images without the object higher)": {
+        "none": 10.73342307926699,
+        "black": 10.660734762204811,
+        "white": 10.185605833491232,
+        "red": 10.712940343607139,
+        "brown": 10.24597280707288,
+        "small": 10.019954267627327,
+        "big": 10.010090503443886
+      },
+      "'a photo of A without X' (AUC on images with A: without B higher)": {
+        "none": 41.78409339288137,
+        "black": 40.77159987230386,
+        "white": 40.422822671142605,
+        "red": 40.9853465989697,
+        "brown": 40.83450739004317,
+        "small": 40.25508710726093,
+        "big": 40.31094225515017
+      }
+    },
+    "NegSplit (4 seeds)": {
+      "'There is no X' (AUC: images without the object higher)": {
+        "none": 89.81843885034323,
+        "black": 46.268258388736285,
+        "white": 58.60541546562065,
+        "red": 62.572246300211795,
+        "brown": 69.33788103439535,
+        "small": 72.58955793765683,
+        "big": 76.15180591664588
+      },
+      "'a photo of A without X' (AUC on images with A: without B higher)": {
+        "none": 70.38944844028046,
+        "black": 50.05934405918975,
+        "white": 51.6762247316735,
+        "red": 54.00349827734095,
+        "brown": 53.635181335821045,
+        "small": 57.096160030717336,
+        "big": 58.96718345662008
+      }
+    }
+  },
+  "mechanism": {
+    "NegSplit s0": {
+      "none": {
+        "p": 0.9924753104647001,
+        "attention: object": 0.5292220142359535,
+        "attention: adjective": 0.0,
+        "e_neg hits the object (top-1 of 80)": 99.58333333333333,
+        "penalty: <I, e_neg> higher with the object (AUC)": 93.19873395065467,
+        "e_aff higher without the object (AUC)": 71.23379340395331,
+        "cos(e_neg, e_neg without adjective)": 0.9533541098237037,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": NaN,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.4510456217452884,
+        "cos(e_neg, CLIP 'something {adj}')": NaN,
+        "image corr: <I, e_neg> vs without adjective": 0.9703160277698297,
+        "image corr: <I, e_neg> vs 'something {adj}'": NaN
+      },
+      "black": {
+        "p": 0.9936852261424065,
+        "attention: object": 0.14845735191678008,
+        "attention: adjective": 0.4561669314901034,
+        "e_neg hits the object (top-1 of 80)": 64.58333333333333,
+        "penalty: <I, e_neg> higher with the object (AUC)": 81.51949877540271,
+        "e_aff higher without the object (AUC)": 35.087706422588475,
+        "cos(e_neg, e_neg without adjective)": 0.6203548215329647,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.3985742112621665,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.3373242815956473,
+        "cos(e_neg, CLIP 'something {adj}')": 0.3511382137114803,
+        "image corr: <I, e_neg> vs without adjective": 0.6040595268958778,
+        "image corr: <I, e_neg> vs 'something {adj}'": 0.14237903970506802
+      },
+      "white": {
+        "p": 0.9930442422628403,
+        "attention: object": 0.19296405011167128,
+        "attention: adjective": 0.357179779248933,
+        "e_neg hits the object (top-1 of 80)": 84.58333333333333,
+        "penalty: <I, e_neg> higher with the object (AUC)": 87.1009052793185,
+        "e_aff higher without the object (AUC)": 42.83465057456245,
+        "cos(e_neg, e_neg without adjective)": 0.7011882334947586,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.43428473025560377,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.38468627526114385,
+        "cos(e_neg, CLIP 'something {adj}')": 0.36896908388783534,
+        "image corr: <I, e_neg> vs without adjective": 0.7085784472971164,
+        "image corr: <I, e_neg> vs 'something {adj}'": 0.010455253292088048
+      },
+      "red": {
+        "p": 0.9920168223480383,
+        "attention: object": 0.25075830025598406,
+        "attention: adjective": 0.32228242643177507,
+        "e_neg hits the object (top-1 of 80)": 89.58333333333333,
+        "penalty: <I, e_neg> higher with the object (AUC)": 85.87608486413956,
+        "e_aff higher without the object (AUC)": 43.84965950002273,
+        "cos(e_neg, e_neg without adjective)": 0.7260717152307431,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.4326204188168049,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.38824409414082767,
+        "cos(e_neg, CLIP 'something {adj}')": 0.36750995063533387,
+        "image corr: <I, e_neg> vs without adjective": 0.708568952534791,
+        "image corr: <I, e_neg> vs 'something {adj}'": 0.12790878936968805
+      },
+      "brown": {
+        "p": 0.980498950680097,
+        "attention: object": 0.21722807944752276,
+        "attention: adjective": 0.24002320491708815,
+        "e_neg hits the object (top-1 of 80)": 92.08333333333333,
+        "penalty: <I, e_neg> higher with the object (AUC)": 89.92957731088002,
+        "e_aff higher without the object (AUC)": 47.85452951211482,
+        "cos(e_neg, e_neg without adjective)": 0.757022961229086,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.44118476106474797,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.43214953852196536,
+        "cos(e_neg, CLIP 'something {adj}')": 0.3658902984112501,
+        "image corr: <I, e_neg> vs without adjective": 0.7664393631590959,
+        "image corr: <I, e_neg> vs 'something {adj}'": 0.03817180106582345
+      },
+      "small": {
+        "p": 0.9679772729674975,
+        "attention: object": 0.25840724629039563,
+        "attention: adjective": 0.1378403143879647,
+        "e_neg hits the object (top-1 of 80)": 98.75,
+        "penalty: <I, e_neg> higher with the object (AUC)": 91.93152842422326,
+        "e_aff higher without the object (AUC)": 46.95155879172186,
+        "cos(e_neg, e_neg without adjective)": 0.8460450944801171,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.47789541619519393,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.4576980164895455,
+        "cos(e_neg, CLIP 'something {adj}')": 0.37762057210008304,
+        "image corr: <I, e_neg> vs without adjective": 0.87763073225073,
+        "image corr: <I, e_neg> vs 'something {adj}'": 0.0391620780869821
+      },
+      "big": {
+        "p": 0.9611431633432707,
+        "attention: object": 0.29918758692219855,
+        "attention: adjective": 0.1372437708855917,
+        "e_neg hits the object (top-1 of 80)": 99.16666666666667,
+        "penalty: <I, e_neg> higher with the object (AUC)": 90.85717655718327,
+        "e_aff higher without the object (AUC)": 51.28250984785458,
+        "cos(e_neg, e_neg without adjective)": 0.8543627853194873,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.48147331352035205,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.4643202235301336,
+        "cos(e_neg, CLIP 'something {adj}')": 0.3596211289055645,
+        "image corr: <I, e_neg> vs without adjective": 0.8642116805018119,
+        "image corr: <I, e_neg> vs 'something {adj}'": -0.003436597103519978
+      }
+    },
+    "NegSplit s1": {
+      "none": {
+        "p": 0.9956976768871149,
+        "attention: object": 0.5378296995535493,
+        "attention: adjective": 0.0,
+        "e_neg hits the object (top-1 of 80)": 100.0,
+        "penalty: <I, e_neg> higher with the object (AUC)": 93.23289468884468,
+        "e_aff higher without the object (AUC)": 72.43221616993348,
+        "cos(e_neg, e_neg without adjective)": 0.9531804549197356,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": NaN,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.45475585975994665,
+        "cos(e_neg, CLIP 'something {adj}')": NaN,
+        "image corr: <I, e_neg> vs without adjective": 0.969853129242125,
+        "image corr: <I, e_neg> vs 'something {adj}'": NaN
+      },
+      "black": {
+        "p": 0.996570935845375,
+        "attention: object": 0.14386019092053176,
+        "attention: adjective": 0.4623699648926655,
+        "e_neg hits the object (top-1 of 80)": 57.916666666666664,
+        "penalty: <I, e_neg> higher with the object (AUC)": 80.7689243555069,
+        "e_aff higher without the object (AUC)": 33.88475719684114,
+        "cos(e_neg, e_neg without adjective)": 0.588141086200873,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.39302826939771573,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.33100437770287194,
+        "cos(e_neg, CLIP 'something {adj}')": 0.3476387167349458,
+        "image corr: <I, e_neg> vs without adjective": 0.5783177195524052,
+        "image corr: <I, e_neg> vs 'something {adj}'": 0.11456453624633002
+      },
+      "white": {
+        "p": 0.9961762115359306,
+        "attention: object": 0.1830586542375386,
+        "attention: adjective": 0.39040808894981943,
+        "e_neg hits the object (top-1 of 80)": 82.08333333333333,
+        "penalty: <I, e_neg> higher with the object (AUC)": 86.30066782236099,
+        "e_aff higher without the object (AUC)": 40.566008551977575,
+        "cos(e_neg, e_neg without adjective)": 0.6595170746246973,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.41864598939816156,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.36362257562577727,
+        "cos(e_neg, CLIP 'something {adj}')": 0.35493611041456463,
+        "image corr: <I, e_neg> vs without adjective": 0.6665558711896321,
+        "image corr: <I, e_neg> vs 'something {adj}'": -0.026849617862106556
+      },
+      "red": {
+        "p": 0.9953250594437122,
+        "attention: object": 0.23967737484102447,
+        "attention: adjective": 0.34884597069273393,
+        "e_neg hits the object (top-1 of 80)": 86.25,
+        "penalty: <I, e_neg> higher with the object (AUC)": 85.5552480618159,
+        "e_aff higher without the object (AUC)": 40.02007689482222,
+        "cos(e_neg, e_neg without adjective)": 0.6938175421208144,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.429915790942808,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.37988723361243804,
+        "cos(e_neg, CLIP 'something {adj}')": 0.36838481165468695,
+        "image corr: <I, e_neg> vs without adjective": 0.6733639214731795,
+        "image corr: <I, e_neg> vs 'something {adj}'": 0.10670990714426988
+      },
+      "brown": {
+        "p": 0.988900310297807,
+        "attention: object": 0.20838101630409558,
+        "attention: adjective": 0.26995078744366763,
+        "e_neg hits the object (top-1 of 80)": 86.66666666666667,
+        "penalty: <I, e_neg> higher with the object (AUC)": 89.40237693488598,
+        "e_aff higher without the object (AUC)": 46.31630598877867,
+        "cos(e_neg, e_neg without adjective)": 0.7221239292373259,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.42328854476412137,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.4120370202387373,
+        "cos(e_neg, CLIP 'something {adj}')": 0.34817506826172273,
+        "image corr: <I, e_neg> vs without adjective": 0.726469037883098,
+        "image corr: <I, e_neg> vs 'something {adj}'": 0.02214496579888648
+      },
+      "small": {
+        "p": 0.9804809279739857,
+        "attention: object": 0.26691775570313137,
+        "attention: adjective": 0.14054577167456347,
+        "e_neg hits the object (top-1 of 80)": 98.75,
+        "penalty: <I, e_neg> higher with the object (AUC)": 92.09449283778667,
+        "e_aff higher without the object (AUC)": 47.01935367348293,
+        "cos(e_neg, e_neg without adjective)": 0.839444504181544,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.471316455801328,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.45247468824187914,
+        "cos(e_neg, CLIP 'something {adj}')": 0.36293517543623843,
+        "image corr: <I, e_neg> vs without adjective": 0.8765587507489168,
+        "image corr: <I, e_neg> vs 'something {adj}'": 0.02508308116217805
+      },
+      "big": {
+        "p": 0.9750848586360613,
+        "attention: object": 0.30357079630096756,
+        "attention: adjective": 0.1436737542816748,
+        "e_neg hits the object (top-1 of 80)": 99.58333333333333,
+        "penalty: <I, e_neg> higher with the object (AUC)": 91.12108106414478,
+        "e_aff higher without the object (AUC)": 51.27146616578102,
+        "cos(e_neg, e_neg without adjective)": 0.8442600339651107,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.4777263301114241,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.46038417319456737,
+        "cos(e_neg, CLIP 'something {adj}')": 0.3504641531656186,
+        "image corr: <I, e_neg> vs without adjective": 0.8633673453589606,
+        "image corr: <I, e_neg> vs 'something {adj}'": -0.00513156179447297
+      }
+    },
+    "NegSplit s2": {
+      "none": {
+        "p": 0.9953591719269752,
+        "attention: object": 0.5306437450150648,
+        "attention: adjective": 0.0,
+        "e_neg hits the object (top-1 of 80)": 100.0,
+        "penalty: <I, e_neg> higher with the object (AUC)": 93.40433883170287,
+        "e_aff higher without the object (AUC)": 72.68881649089356,
+        "cos(e_neg, e_neg without adjective)": 0.9539812490344047,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": NaN,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.4539898415406545,
+        "cos(e_neg, CLIP 'something {adj}')": NaN,
+        "image corr: <I, e_neg> vs without adjective": 0.9727773196377106,
+        "image corr: <I, e_neg> vs 'something {adj}'": NaN
+      },
+      "black": {
+        "p": 0.9958025264243285,
+        "attention: object": 0.14484714440380533,
+        "attention: adjective": 0.44763584149380525,
+        "e_neg hits the object (top-1 of 80)": 63.75,
+        "penalty: <I, e_neg> higher with the object (AUC)": 82.12265320122242,
+        "e_aff higher without the object (AUC)": 34.526212642279766,
+        "cos(e_neg, e_neg without adjective)": 0.6063011684765418,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.40553397915015615,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.3435621814181407,
+        "cos(e_neg, CLIP 'something {adj}')": 0.35727885173012813,
+        "image corr: <I, e_neg> vs without adjective": 0.6014676580229332,
+        "image corr: <I, e_neg> vs 'something {adj}'": 0.12942891714330415
+      },
+      "white": {
+        "p": 0.9959049505492051,
+        "attention: object": 0.18664925728614132,
+        "attention: adjective": 0.36054181524862844,
+        "e_neg hits the object (top-1 of 80)": 84.58333333333333,
+        "penalty: <I, e_neg> higher with the object (AUC)": 87.29729702075322,
+        "e_aff higher without the object (AUC)": 41.86189463362098,
+        "cos(e_neg, e_neg without adjective)": 0.6833189489940802,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.4317653061201175,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.37983261787643036,
+        "cos(e_neg, CLIP 'something {adj}')": 0.36509069725871085,
+        "image corr: <I, e_neg> vs without adjective": 0.6905311832894492,
+        "image corr: <I, e_neg> vs 'something {adj}'": -0.013406711186126689
+      },
+      "red": {
+        "p": 0.9951321753362815,
+        "attention: object": 0.24152649883180857,
+        "attention: adjective": 0.3244200178111593,
+        "e_neg hits the object (top-1 of 80)": 89.16666666666667,
+        "penalty: <I, e_neg> higher with the object (AUC)": 86.14343869189422,
+        "e_aff higher without the object (AUC)": 41.503302291966975,
+        "cos(e_neg, e_neg without adjective)": 0.7140194579958916,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.44583191437025865,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.39485360607504844,
+        "cos(e_neg, CLIP 'something {adj}')": 0.38357471246272323,
+        "image corr: <I, e_neg> vs without adjective": 0.7095540759095955,
+        "image corr: <I, e_neg> vs 'something {adj}'": 0.1506564436522118
+      },
+      "brown": {
+        "p": 0.9870802981158098,
+        "attention: object": 0.2187575235341986,
+        "attention: adjective": 0.21548120545533797,
+        "e_neg hits the object (top-1 of 80)": 94.58333333333333,
+        "penalty: <I, e_neg> higher with the object (AUC)": 90.7161554445823,
+        "e_aff higher without the object (AUC)": 46.799659986669816,
+        "cos(e_neg, e_neg without adjective)": 0.7604220206538836,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.4474191810935736,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.444625736027956,
+        "cos(e_neg, CLIP 'something {adj}')": 0.3686181809132298,
+        "image corr: <I, e_neg> vs without adjective": 0.779056495931031,
+        "image corr: <I, e_neg> vs 'something {adj}'": 0.02540150718680726
+      },
+      "small": {
+        "p": 0.9809933436413606,
+        "attention: object": 0.25236491886898876,
+        "attention: adjective": 0.14504975735520323,
+        "e_neg hits the object (top-1 of 80)": 98.33333333333333,
+        "penalty: <I, e_neg> higher with the object (AUC)": 92.22529344260693,
+        "e_aff higher without the object (AUC)": 45.82942500400046,
+        "cos(e_neg, e_neg without adjective)": 0.8344366133213044,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.47065220500032107,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.45009600507716335,
+        "cos(e_neg, CLIP 'something {adj}')": 0.36778817468633257,
+        "image corr: <I, e_neg> vs without adjective": 0.8735911563930383,
+        "image corr: <I, e_neg> vs 'something {adj}'": 0.0290938348344007
+      },
+      "big": {
+        "p": 0.9741840360065301,
+        "attention: object": 0.2985929549050828,
+        "attention: adjective": 0.14756133304908872,
+        "e_neg hits the object (top-1 of 80)": 99.16666666666667,
+        "penalty: <I, e_neg> higher with the object (AUC)": 91.21836339433987,
+        "e_aff higher without the object (AUC)": 50.651345398897924,
+        "cos(e_neg, e_neg without adjective)": 0.8455523252487183,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.47164730802178384,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.4523184539129337,
+        "cos(e_neg, CLIP 'something {adj}')": 0.3449582075079282,
+        "image corr: <I, e_neg> vs without adjective": 0.8632486798127927,
+        "image corr: <I, e_neg> vs 'something {adj}'": -0.006366823904389707
+      }
+    },
+    "NegSplit s3": {
+      "none": {
+        "p": 0.9949880090852579,
+        "attention: object": 0.5092500935619076,
+        "attention: adjective": 0.0,
+        "e_neg hits the object (top-1 of 80)": 99.58333333333333,
+        "penalty: <I, e_neg> higher with the object (AUC)": 93.13562234242757,
+        "e_aff higher without the object (AUC)": 69.88973918370903,
+        "cos(e_neg, e_neg without adjective)": 0.9509401800731818,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": NaN,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.45500983235736686,
+        "cos(e_neg, CLIP 'something {adj}')": NaN,
+        "image corr: <I, e_neg> vs without adjective": 0.9677402649995144,
+        "image corr: <I, e_neg> vs 'something {adj}'": NaN
+      },
+      "black": {
+        "p": 0.9956261043747267,
+        "attention: object": 0.14622617356168727,
+        "attention: adjective": 0.4305893021946152,
+        "e_neg hits the object (top-1 of 80)": 63.75,
+        "penalty: <I, e_neg> higher with the object (AUC)": 81.71063592036565,
+        "e_aff higher without the object (AUC)": 35.621574585481234,
+        "cos(e_neg, e_neg without adjective)": 0.6311453460405271,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.4133262058099111,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.3531381019080679,
+        "cos(e_neg, CLIP 'something {adj}')": 0.36274734207739434,
+        "image corr: <I, e_neg> vs without adjective": 0.6128150861244251,
+        "image corr: <I, e_neg> vs 'something {adj}'": 0.09169940360107033
+      },
+      "white": {
+        "p": 0.995328409721454,
+        "attention: object": 0.184278958166639,
+        "attention: adjective": 0.34847842436283827,
+        "e_neg hits the object (top-1 of 80)": 84.58333333333333,
+        "penalty: <I, e_neg> higher with the object (AUC)": 86.61535114049911,
+        "e_aff higher without the object (AUC)": 42.10492506157607,
+        "cos(e_neg, e_neg without adjective)": 0.7025510717183352,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.43526110611855984,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.38757076269636553,
+        "cos(e_neg, CLIP 'something {adj}')": 0.3741430578753352,
+        "image corr: <I, e_neg> vs without adjective": 0.7031260781719707,
+        "image corr: <I, e_neg> vs 'something {adj}'": -0.011351829363149706
+      },
+      "red": {
+        "p": 0.9946473017334938,
+        "attention: object": 0.23110193945467472,
+        "attention: adjective": 0.34197288056214653,
+        "e_neg hits the object (top-1 of 80)": 85.83333333333333,
+        "penalty: <I, e_neg> higher with the object (AUC)": 84.28930761913459,
+        "e_aff higher without the object (AUC)": 41.85221904888749,
+        "cos(e_neg, e_neg without adjective)": 0.7135402167836825,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.4343805909777681,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.3773022048796217,
+        "cos(e_neg, CLIP 'something {adj}')": 0.3755136758709947,
+        "image corr: <I, e_neg> vs without adjective": 0.6833608179196451,
+        "image corr: <I, e_neg> vs 'something {adj}'": 0.10361738724446572
+      },
+      "brown": {
+        "p": 0.9884144991636277,
+        "attention: object": 0.2097926632501185,
+        "attention: adjective": 0.22765932849918802,
+        "e_neg hits the object (top-1 of 80)": 90.83333333333333,
+        "penalty: <I, e_neg> higher with the object (AUC)": 89.76551870505016,
+        "e_aff higher without the object (AUC)": 47.44472159538418,
+        "cos(e_neg, e_neg without adjective)": 0.7613925526539485,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.4405249360948801,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.4344800422588984,
+        "cos(e_neg, CLIP 'something {adj}')": 0.3667441508422295,
+        "image corr: <I, e_neg> vs without adjective": 0.7655837647237774,
+        "image corr: <I, e_neg> vs 'something {adj}'": 0.014118054951545257
+      },
+      "small": {
+        "p": 0.9815162867307663,
+        "attention: object": 0.2418581201074024,
+        "attention: adjective": 0.14887746792907516,
+        "e_neg hits the object (top-1 of 80)": 98.75,
+        "penalty: <I, e_neg> higher with the object (AUC)": 91.98867691059907,
+        "e_aff higher without the object (AUC)": 46.14611818067109,
+        "cos(e_neg, e_neg without adjective)": 0.8366246325274308,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.46733641636868317,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.44470348010460536,
+        "cos(e_neg, CLIP 'something {adj}')": 0.3661833383453389,
+        "image corr: <I, e_neg> vs without adjective": 0.8674798953235354,
+        "image corr: <I, e_neg> vs 'something {adj}'": 0.01810942265128764
+      },
+      "big": {
+        "p": 0.9770614127318065,
+        "attention: object": 0.2693135453698536,
+        "attention: adjective": 0.16299339700490237,
+        "e_neg hits the object (top-1 of 80)": 99.16666666666667,
+        "penalty: <I, e_neg> higher with the object (AUC)": 90.27122311294079,
+        "e_aff higher without the object (AUC)": 49.034973011973,
+        "cos(e_neg, e_neg without adjective)": 0.8366079516708851,
+        "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.4671043731272221,
+        "cos(e_neg, CLIP 'a photo of a {o}')": 0.4478936666622758,
+        "cos(e_neg, CLIP 'something {adj}')": 0.34875595662742853,
+        "image corr: <I, e_neg> vs without adjective": 0.8448674906652924,
+        "image corr: <I, e_neg> vs 'something {adj}'": -0.013448850961550922
+      }
+    }
+  },
+  "mechanism_mean": {
+    "none": {
+      "p": 0.9946300420910121,
+      "attention: object": 0.5267363880916188,
+      "attention: adjective": 0.0,
+      "e_neg hits the object (top-1 of 80)": 99.79166666666666,
+      "penalty: <I, e_neg> higher with the object (AUC)": 93.24289745340745,
+      "e_aff higher without the object (AUC)": 71.56114131212234,
+      "cos(e_neg, e_neg without adjective)": 0.9528639984627565,
+      "cos(e_neg, CLIP 'a photo of a {adj} {o}')": NaN,
+      "cos(e_neg, CLIP 'a photo of a {o}')": 0.4537002888508141,
+      "cos(e_neg, CLIP 'something {adj}')": NaN,
+      "image corr: <I, e_neg> vs without adjective": 0.9701716854122949,
+      "image corr: <I, e_neg> vs 'something {adj}'": NaN
+    },
+    "black": {
+      "p": 0.9954211981967092,
+      "attention: object": 0.1458477152007011,
+      "attention: adjective": 0.44919051001779736,
+      "e_neg hits the object (top-1 of 80)": 62.5,
+      "penalty: <I, e_neg> higher with the object (AUC)": 81.53042806312442,
+      "e_aff higher without the object (AUC)": 34.780062711797655,
+      "cos(e_neg, e_neg without adjective)": 0.6114856055627267,
+      "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.40261566640498736,
+      "cos(e_neg, CLIP 'a photo of a {o}')": 0.341257235656182,
+      "cos(e_neg, CLIP 'something {adj}')": 0.3547007810634871,
+      "image corr: <I, e_neg> vs without adjective": 0.5991649976489103,
+      "image corr: <I, e_neg> vs 'something {adj}'": 0.11951797417394314
+    },
+    "white": {
+      "p": 0.9951134535173575,
+      "attention: object": 0.18673772995049753,
+      "attention: adjective": 0.3641520269525548,
+      "e_neg hits the object (top-1 of 80)": 83.95833333333333,
+      "penalty: <I, e_neg> higher with the object (AUC)": 86.82855531573296,
+      "e_aff higher without the object (AUC)": 41.84186970543427,
+      "cos(e_neg, e_neg without adjective)": 0.6866438322079678,
+      "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.4299892829731107,
+      "cos(e_neg, CLIP 'a photo of a {o}')": 0.3789280578649293,
+      "cos(e_neg, CLIP 'something {adj}')": 0.36578473735911154,
+      "image corr: <I, e_neg> vs without adjective": 0.6921978949870421,
+      "image corr: <I, e_neg> vs 'something {adj}'": -0.010288226279823724
+    },
+    "red": {
+      "p": 0.9942803397153814,
+      "attention: object": 0.24076602834587296,
+      "attention: adjective": 0.3343803238744537,
+      "e_neg hits the object (top-1 of 80)": 87.70833333333333,
+      "penalty: <I, e_neg> higher with the object (AUC)": 85.46601980924608,
+      "e_aff higher without the object (AUC)": 41.806314433924854,
+      "cos(e_neg, e_neg without adjective)": 0.7118622330327828,
+      "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.43568717877690993,
+      "cos(e_neg, CLIP 'a photo of a {o}')": 0.385071784676984,
+      "cos(e_neg, CLIP 'something {adj}')": 0.3737457876559347,
+      "image corr: <I, e_neg> vs without adjective": 0.6937119419593027,
+      "image corr: <I, e_neg> vs 'something {adj}'": 0.12222313185265887
+    },
+    "brown": {
+      "p": 0.9862235145643352,
+      "attention: object": 0.21353982063398386,
+      "attention: adjective": 0.23827863157882045,
+      "e_neg hits the object (top-1 of 80)": 91.04166666666666,
+      "penalty: <I, e_neg> higher with the object (AUC)": 89.95340709884961,
+      "e_aff higher without the object (AUC)": 47.10380427073687,
+      "cos(e_neg, e_neg without adjective)": 0.750240365943561,
+      "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.4381043557543308,
+      "cos(e_neg, CLIP 'a photo of a {o}')": 0.43082308426188926,
+      "cos(e_neg, CLIP 'something {adj}')": 0.36235692460710806,
+      "image corr: <I, e_neg> vs without adjective": 0.7593871654242507,
+      "image corr: <I, e_neg> vs 'something {adj}'": 0.02495908225076561
+    },
+    "small": {
+      "p": 0.9777419578284025,
+      "attention: object": 0.2548870102424795,
+      "attention: adjective": 0.14307832783670166,
+      "e_neg hits the object (top-1 of 80)": 98.64583333333333,
+      "penalty: <I, e_neg> higher with the object (AUC)": 92.05999790380397,
+      "e_aff higher without the object (AUC)": 46.48661391246909,
+      "cos(e_neg, e_neg without adjective)": 0.839137711127599,
+      "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.47180012334138155,
+      "cos(e_neg, CLIP 'a photo of a {o}')": 0.45124304747829835,
+      "cos(e_neg, CLIP 'something {adj}')": 0.3686318151419983,
+      "image corr: <I, e_neg> vs without adjective": 0.8738151336790552,
+      "image corr: <I, e_neg> vs 'something {adj}'": 0.02786210418371212
+    },
+    "big": {
+      "p": 0.9718683676794172,
+      "attention: object": 0.29266622087452565,
+      "attention: adjective": 0.1478680638053144,
+      "e_neg hits the object (top-1 of 80)": 99.27083333333334,
+      "penalty: <I, e_neg> higher with the object (AUC)": 90.86696103215218,
+      "e_aff higher without the object (AUC)": 50.56007360612663,
+      "cos(e_neg, e_neg without adjective)": 0.8451957740510503,
+      "cos(e_neg, CLIP 'a photo of a {adj} {o}')": 0.47448783119519555,
+      "cos(e_neg, CLIP 'a photo of a {o}')": 0.4562291293249776,
+      "cos(e_neg, CLIP 'something {adj}')": 0.350949861551635,
+      "image corr: <I, e_neg> vs without adjective": 0.8589237990847145,
+      "image corr: <I, e_neg> vs 'something {adj}'": -0.007095958440983395
+    }
+  }
+}

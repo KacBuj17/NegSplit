@@ -1,0 +1,114 @@
+{
+  "table": {
+    "random": {
+      "AUC no X": 50.0,
+      "AUC a X": 50.0,
+      "top 10 without X": 96.34224700927734,
+      "top 100 without X": 96.34224700927734,
+      "without X: picks no X": 50.0,
+      "with X: picks a X": 50.0
+    },
+    "CLIP": {
+      "AUC no X": 10.734432453173213,
+      "AUC a X": 89.90699241558711,
+      "top 10 without X": 22.750000314166147,
+      "top 100 without X": 51.245833055581905,
+      "without X: picks no X": 52.55394216064209,
+      "with X: picks a X": 72.32612958876416
+    },
+    "NegSplit (4 seeds)": {
+      "AUC no X": 89.82208168754975,
+      "AUC a X": 87.95284797437489,
+      "top 10 without X": 99.82291663686435,
+      "top 100 without X": 99.86354179680347,
+      "without X: picks no X": 96.32842497900128,
+      "with X: picks a X": 76.85151987243444
+    },
+    "NegSplit s0": {
+      "AUC no X": 89.57858331501484,
+      "AUC a X": 88.23175515979528,
+      "top 10 without X": 99.66666663686435,
+      "top 100 without X": 99.825000166893,
+      "without X: picks no X": 96.1058423916499,
+      "with X: picks a X": 77.63578953842321
+    },
+    "NegSplit s1": {
+      "AUC no X": 89.73817141105732,
+      "AUC a X": 88.60487936685485,
+      "top 10 without X": 99.87499997019768,
+      "top 100 without X": 99.85000014305115,
+      "without X: picks no X": 96.4294535169999,
+      "with X: picks a X": 77.01760716115436
+    },
+    "NegSplit s2": {
+      "AUC no X": 90.22728624443215,
+      "AUC a X": 88.57684209942818,
+      "top 10 without X": 99.95833332339924,
+      "top 100 without X": 99.90416675806046,
+      "without X: picks no X": 96.02065352102119,
+      "with X: picks a X": 78.15261819710334
+    },
+    "NegSplit s3": {
+      "AUC no X": 89.74428577969474,
+      "AUC a X": 86.39791527142127,
+      "top 10 without X": 99.79166661699612,
+      "top 100 without X": 99.87500011920929,
+      "without X: picks no X": 96.75775048633417,
+      "with X: picks a X": 74.60006459305684
+    }
+  },
+  "example": "cat",
+  "example_without": 96.31999969482422,
+  "example_table": {
+    "CLIP": {
+      "AUC no X": 2.398744846383731,
+      "AUC a X": 98.08123906453451,
+      "top 10 without X": 0.0,
+      "top 100 without X": 18.333333482344948,
+      "without X: picks no X": 39.48643431067467,
+      "with X: picks a X": 82.97101457913718
+    },
+    "NegSplit s0": {
+      "AUC no X": 94.72839633623758,
+      "AUC a X": 98.10568888982138,
+      "top 10 without X": 100.0,
+      "top 100 without X": 100.0,
+      "without X: picks no X": 99.06561374664307,
+      "with X: picks a X": 91.30434791247049
+    }
+  },
+  "weakest": {
+    "hair drier": {
+      "CLIP": 1.9635343303283055,
+      "NegSplit (4 seeds)": 40.779328594605126
+    },
+    "toaster": {
+      "CLIP": 3.510617030163606,
+      "NegSplit (4 seeds)": 54.22404979666074
+    },
+    "parking meter": {
+      "CLIP": 6.900795549154282,
+      "NegSplit (4 seeds)": 62.7366840839386
+    },
+    "scissors": {
+      "CLIP": 10.637666285037994,
+      "NegSplit (4 seeds)": 75.87130814790726
+    },
+    "potted plant": {
+      "CLIP": 18.782313664754234,
+      "NegSplit (4 seeds)": 76.97372982899348
+    },
+    "fire hydrant": {
+      "CLIP": 3.0268684029579163,
+      "NegSplit (4 seeds)": 79.81240501006444
+    },
+    "apple": {
+      "CLIP": 15.985523660977682,
+      "NegSplit (4 seeds)": 80.40547470251718
+    },
+    "chair": {
+      "CLIP": 30.85351288318634,
+      "NegSplit (4 seeds)": 81.81434323390326
+    }
+  }
+}
