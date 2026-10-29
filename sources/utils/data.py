@@ -18,8 +18,9 @@ HEADERS = {"User-Agent": "Mozilla/5.0"}
 NEGBENCH_FOLDER = "1kSEq0mkV1t1T8GuOAM65iz_iAA7e5gxB"
 NEGBENCH_FILES = ["COCO_val_mcq_llama3.1_rephrased.csv", "VOC2007_mcq_llama3.1_rephrased.csv",
                   "COCO_val_retrieval.csv", "COCO_val_negated_retrieval_llama3.1_rephrased_affneg_true.csv"]
+COCO_ANNOTATIONS = "http://images.cocodataset.org/annotations/annotations_trainval2017.zip"
 ARCHIVES = {
-    "http://images.cocodataset.org/annotations/annotations_trainval2017.zip": "annotations/instances_train2017.json",
+    COCO_ANNOTATIONS: "annotations/instances_train2017.json",
     "http://images.cocodataset.org/zips/val2017.zip": "val2017/000000000139.jpg",
     "http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar": "VOCdevkit/VOC2007/JPEGImages/000001.jpg",
 }

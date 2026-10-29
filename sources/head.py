@@ -28,6 +28,9 @@ class NegSplit(nn.Module):
         self.log_beta = nn.Parameter(torch.tensor(math.log(0.5)))
         self.tau = nn.Parameter(torch.tensor(0.2))
 
+    def extra_scalars(self):
+        return []
+
     def mix_layers(self, hidden):
         weights = torch.softmax(self.layer_logits, 0)
         mixed = (weights[None, :, None, None] * hidden).sum(1)

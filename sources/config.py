@@ -13,6 +13,8 @@ CACHE = RESOURCES / "cache"
 CHECKPOINTS = RESOURCES / "checkpoints"
 VAL_IDS = RESOURCES / "val_coco_ids.txt"
 RESULTS = RESOURCES / "results.json"
+ABLATION = RESOURCES / "ablation.json"
+ANALYSIS = RESOURCES / "analysis"
 FIGURES = RESOURCES / "figures"
 
 TRAIN_DATA = CACHE / "coco_neg_pairs.parquet"
@@ -26,3 +28,7 @@ SEEDS = range(4)
 
 def checkpoint(seed):
     return CHECKPOINTS / f"negsplit_s{seed}.pt"
+
+
+def heldout_checkpoint(seed):
+    return CHECKPOINTS / f"heldout_s{seed}.pt"
